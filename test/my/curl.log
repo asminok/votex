@@ -1,0 +1,1811 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Apr 2023 11:47:55 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 164292
+Connection: keep-alive
+access-control-allow-origin: *
+cache-control: private, must-revalidate
+x-powered-by: PHP/5.6.22
+set-cookie: bd7f305b1b493a66653dcf4f4fa2b043=1; expires=Thu, 06-Apr-2023 21:00:00 GMT; Max-Age=33125; path=/best/msk/oprosy/
+
+
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Голосование за победителей проекта «Клиника года 2023» открыто!</title>
+        <meta name="description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="//s1.stc.all.kpcdn.net/best/newheadkp/favicon.ico" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="/best/newheadkp/css/header.css">
+        <link rel="stylesheet"  href="/best/newheadkp/css/tools.css">
+        <link rel="stylesheet"  href="/best/newheadkp/css/header-adaptive.css">
+        <script type="text/javascript" src="//s1.stc.all.kpcdn.net/best/newheadkp/js/jquery.js"></script>
+        
+        <script type="text/javascript" src="//s1.stc.all.kpcdn.net/best/newheadkp/js/common.js"></script>
+        <script type="text/javascript" src="/best/newheadkp/js/search.js"></script>
+        <script type="text/javascript" src="/best/assets/md5.js"></script>
+
+        <!-- og-tags для соцсетей -->
+        <meta name="mrc__share_title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta property="og:title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta itemprop="name" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <meta property="og:site_name" content="КП">
+        <!--meta property="fb:app_id" content="191944177588942"-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@onlinekpru">
+        <meta name="twitter:url" content="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <meta name="twitter:title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta name="twitter:image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <link rel="image_src" href="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta property="og:image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta itemprop="image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta name="mrc__share_description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta property="og:description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta itemprop="description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta name="twitter:description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <link rel="canonical" href="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <!-- og-tags для соцсетей -->
+
+        <link rel="stylesheet" type="text/css" href="/best/msk/oprosy/css/style.css?v=16082017">
+        <script type="text/javascript" src="/best/msk/oprosy/js/vendors/fp/fp2load.js"></script>
+
+    </head>
+
+    <body>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNCMRJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KNCMRJ');</script>
+    <!-- End Google Tag Manager -->
+
+    <header>
+        <div id="headJS">
+            <div class="topInfo flex-container">
+
+                <!-- logo -->
+                <div>
+                    <a href="//www.kp.ru/" title="Голосование за победителей проекта «Клиника года 2023» открыто!">
+                       <div class="logo ru">Комсомольская правда</div>
+                    </a>
+                </div> <!-- /logo -->
+
+                <div class="informerNew book-countdown">
+                    <a href="https://kp.ru/best/msk/podpiska/" target="_blank">
+                        <img class="informerNewImg" src="//s2.stc.all.kpcdn.net/share/i/cyan/02e9c2a3a92c352f50de483675ce3daa.png" width="83" height="77" />
+                        <span class="informerNewNote">Бесплатно!</span>
+                        <span class="blue">Не пропусти важные новости Подпишись!</span>
+                    </a>
+                </div>
+
+                <div id="headRadioBroadcasting">
+                    <div class="radioWidget">
+                        <div class="audioBlock">
+                            <a href="https://www.kp.ru/radio/">
+                                <span class="radioFrameTitle">Радио</span>
+                            </a>
+                            <div class="control">
+                                <a href="https://www.kp.ru/radio/" class="btnPlay text">
+                                    <span class="btnPlay btnVolume on"></span>
+                                    Слушать эфир
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- radio -->
+                <!--div class="radioFrame">
+                    <div class="block">
+                        <a class="radioFrame-link" href="/radio/fm/index.html" target="_blank">Play</a>
+                        <a class="radioFrame-link" href="/radio/">
+                            <span class="radioFrame-title">Радио</span>
+                            <p class="radioFrame-name">Комсомольская правда</p>
+                        </a>
+                    </div>
+                </div-->
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="menuHead">
+        <button class="btn_menu" id="btnMenuJS"><span></span></button>
+
+        <button class="btn_menu_close" id="btnMenuJS2">Закрыть меню</button>
+
+        <div class="HelpInfo">Тут все рубрики сайта</div>
+        <div class="logo-menu">
+            <a href="//kp.ru/" title="Главная страница Комсомольской правды">
+                <div id="goUpJS" class="goUpJS ru logo" style="display: inline-block;">
+                        Комсомольская правда
+                </div>
+            </a>
+        </div>
+        <ul class="sectionNav" style="max-width: 1360px;" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+            <li><a itemprop="url" href="https://www.kp.ru/politics/" title="Политика"><span itemprop="name">Политика</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/society/" title="Общество"><span itemprop="name">Общество</span></a></li>
+            <li><a href="https://www.kp.ru/economics/" title="Экономика">Экономика</a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/unrest/" title="В МИРЕ"><span itemprop="name">В МИРЕ</span></a></li>
+            <li><a itemprop="url" href="http://kpsport.ru/sport/?geo=0&amp;utm_campaign=kpsport" title="Спорт"><span itemprop="name">Спорт</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/stars/" title="Звезды"><span itemprop="name">Звезды</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/right-benefits/" title="Наши права"><span itemprop="name">Наши права</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/health/" title="Здоровье"><span itemprop="name">Здоровье</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/science/" title="Наука"><span itemprop="name">Наука</span></a></li>
+            <li><a itemprop="url" class="shop-link" style="color: #C20509;" href="http://shop.kp.ru/" title="МАГАЗИН"><span itemprop="name">МАГАЗИН</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/dom/" title="Недвижимость"><span itemprop="name">Недвижимость</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/afisha/" title="АФИША"><span itemprop="name">АФИША</span></a></li>
+        </ul>
+    </div>
+
+    <div class="tools popap" id="jsTools">
+        <button class="goUp goUpJS" id="goUpJS">Наверх</button>
+
+        <div class="scrollTools">
+            <div class="menu">
+                <nav>
+                    <ul class="sectionNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/syria/" title="Война в Сирии"><span itemprop="name">Война в Сирии</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/politics/" title="Политика"><span itemprop="name">Политика</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/economics/" title="Экономика"><span itemprop="name">Экономика</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/society/" title="Общество"><span itemprop="name">Общество</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/allcolumn/" title="Колумнисты"><span itemprop="name">Колумнисты</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/incidents/" title="Происшествия"><span itemprop="name">Происшествия</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/putevoditel/" title="Путеводитель"><span itemprop="name">Путеводитель</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/stars/" title="Звезды"><span itemprop="name">Звезды</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/health/" title="Здоровье"><span itemprop="name">Здоровье</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/auto/" title="АВТО"><span itemprop="name">АВТО</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/best/msk/projects/" title="Спецпроекты"><span itemprop="name">Спецпроекты</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/sport/" title="Спорт"><span itemprop="name">Спорт</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/tourism/" title="Туризм"><span itemprop="name">Туризм</span></a></li>
+                        <li><a itemprop="url" href="http://best.kp.ru/msk/job/" title="Есть работа!"><span itemprop="name">Есть работа!</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/press/" title="Пресс-центр"><span itemprop="name">Пресс-центр</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/science/" title="Наука"><span itemprop="name">Наука</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/dom/" title="Недвижимость"><span itemprop="name">Недвижимость</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/subscribe/periodical/" title="Подписка"><span itemprop="name">Подписка</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/televizor/" title="Телевизор"><span itemprop="name">Телевизор</span></a></li>
+                        <li><a itemprop="url" href="http://shop.kp.ru/" title="ИНТЕРНЕТ-МАГАЗИН"><span itemprop="name">ИНТЕРНЕТ-МАГАЗИН</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/collections/" title="Коллекции"><span itemprop="name">Коллекции</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/far-hectare/" title="Дальневосточный прорыв"><span itemprop="name">Дальневосточный прорыв</span></a></li>
+                        <li><a href="http://promokod.kp.ru/" target="_blank">ПРОМОКОДЫ</a></li>
+                    </ul>
+                    <ul class="media" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="/photo/" title="Фото" class="photo"><span itemprop="name">Фото</span></a></li>
+                        <li><a itemprop="url" href="/video/" title="Фото" class="video"><span itemprop="name">Видео</span></a></li>
+                    </ul>
+                    <ul class="eventsNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="/daily/afisha/" title="Афиша" class="nav yellow"><span itemprop="name">Афиша</span></a></li>
+                        <li><a itemprop="url" href="/daily/bezopasnaya-strana/" title="Безопасная страна" class="nav yellow"><span itemprop="name">Безопасная страна</span></a></li>
+                        <li><a itemprop="url" href="/bonus/" title="Бонусный клуб" class="nav green"><span itemprop="name">Бонусный клуб</span></a></li>
+                        <li><a itemprop="url" href="/daily/unrest/" title="В мире" class="nav light-blue"><span itemprop="name">В мире</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/vich/" title="ВИЧ: что делать?" class="nav"><span itemprop="name">ВИЧ: что делать?</span></a></li>
+                        <li><a itemprop="url" href="/daily/vybory-prezidenta-rossii-2018/" title="Выборы-2018" class="nav blue"><span itemprop="name">Выборы-2018</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/kak-podgotovit-rebenka-k-ehkzamenam-i-vypusknomu/" title="Готовимся к поступлению в вуз" class="nav"><span itemprop="name">Готовимся к поступлению в вуз</span></a></li>
+                        <li><a itemprop="url" href="/daily/mydacha/" title="Дача" class="nav green"><span itemprop="name">Дача</span></a></li>
+                        <li><a itemprop="url" href="/daily/dobrovolec/" title="Доброволец" class="nav green"><span itemprop="name">Доброволец</span></a></li>
+                        <li><a itemprop="url" href="/special/" title="Дом. Семья" class="nav"><span itemprop="name">Дом. Семья</span></a></li>
+                        <li><a itemprop="url" href="/daily/animal/" title="Живой уголок" class="nav"><span itemprop="name">Живой уголок</span></a></li>
+                        <li><a itemprop="url" href="/daily/history/" title="История современности" class="nav green"><span itemprop="name">История современности</span></a></li>
+                        <li><a itemprop="url" href="/daily/tinkoff2017/" title="Как сохранить деньги" class="nav yellow"><span itemprop="name">Как сохранить деньги</span></a></li>
+                        <li><a itemprop="url" href="/daily/klub-lyuboznatelnyh/" title="Клуб любознательных" class="nav azure"><span itemprop="name">Клуб любознательных</span></a></li>
+                        <li><a itemprop="url" href="/daily/potrebit/" title="Клуб потребителей" class="nav red"><span itemprop="name">Клуб потребителей</span></a></li>
+                        <li><a itemprop="url" href="/daily/books/" title="Книжная полка" class="nav yellow"><span itemprop="name">Книжная полка</span></a></li>
+                        <li><a itemprop="url" href="/daily/culture/" title="Культура" class="nav green"><span itemprop="name">Культура</span></a></li>
+                        <li><a itemprop="url" href="/daily/mama/" title="Мама и малыш" class="nav pink"><span itemprop="name">Мама и малыш</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-futbolu-2018-marshrut-bolelshika/" title="Маршрут болельщика" class="nav red"><span itemprop="name">Маршрут болельщика</span></a></li>
+                        <li><a itemprop="url" href="/daily/26818.4/3854953/" title="Матрешки будущего" class="nav red"><span itemprop="name">Матрешки будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/right-benefits/" title="Наши права и льготы" class="nav grey"><span itemprop="name">Наши права и льготы</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/finansovaya-gramotnost/" title="Нелишние деньги" class="nav purple"><span itemprop="name">Нелишние деньги</span></a></li>
+                        <li><a itemprop="url" href="/daily/education/" title="Образование" class="nav azure"><span itemprop="name">Образование</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/4674/" title="Олег Табаков" class="nav black"><span itemprop="name">Олег Табаков</span></a></li>
+                        <li><a itemprop="url" href="/daily/diatlov-pass/" title="Перевал Дятлова" class="nav purple"><span itemprop="name">Перевал Дятлова</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/45-plus/" title="Правила счастливой жизни 45+" class="nav green"><span itemprop="name">Правила счастливой жизни 45+</span></a></li>
+                        <li><a itemprop="url" href="/daily/gurman/" title="Приятного аппетита" class="nav yellow"><span itemprop="name">Приятного аппетита</span></a></li>
+                        <li><a itemprop="url" href="/daily/akademia-timiryazeva/" title="Профессии будущего" class="nav"><span itemprop="name">Профессии будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/zimnie-olimpijskie-igry/" title="Пхенчхан-2018" class="nav lilac"><span itemprop="name">Пхенчхан-2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/rabochij-klass/" title="Рабочий? Класс!" class="nav blue"><span itemprop="name">Рабочий? Класс!</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/6774/" title="Сирия " class="nav red"><span itemprop="name">Сирия </span></a></li>
+                        <li><a itemprop="url" href="/daily/tips-mes/" title="Спасатель" class="nav azure"><span itemprop="name">Спасатель</span></a></li>
+                        <li><a itemprop="url" href="/daily/euromaidan/" title="Украина" class="nav grey"><span itemprop="name">Украина</span></a></li>
+                        <li><a itemprop="url" href="/daily/digital/" title="Умные вещи" class="nav blue"><span itemprop="name">Умные вещи</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-futbolu-2018-v-rossii/" title="Чемпионат мира по футболу 2018" class="nav green"><span itemprop="name">Чемпионат мира по футболу 2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-khokkeyu-s-shajboj/" title="Чемпионат мира по хоккею 2018" class="nav yellow"><span itemprop="name">Чемпионат мира по хоккею 2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/gorod-budushego/" title="ЭКСПО 2025: город будущего" class="nav orange"><span itemprop="name">ЭКСПО 2025: город будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/ehkonomicheskie-forumy-v-rossii-v-2018-godu/" title="Экономические форумы" class="nav"><span itemprop="name">Экономические форумы</span></a></li>
+                    </ul>
+                    <ul class="kpNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="http://best.kp.ru/msk/partners/" title="Наши партнеры"><span itemprop="name">Наши партнеры</span></a></li>
+                        <li style="display: none;"><a itemprop="url" href="/about/" title="Все о КП"><span itemprop="name">Все о КП</span></a></li>
+                        <li><a itemprop="url" href="/radio/" title="Радио КП"><span itemprop="name">Радио КП</span></a></li>
+                        <li><a itemprop="url" href="http://advert.kp.ru/kr/2355/2356/" title="Реклама"><span itemprop="name">Реклама</span></a></li>
+                        <li><a itemprop="url" href="/action/" title="Конкурсы и тесты"><span itemprop="name">Конкурсы и тесты</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/12360/" title="Новое на сайте"><span itemprop="name">Новое на сайте</span></a></li>
+                        <li><a itemprop="url" href="/guide/" title="Гид потребителя"><span itemprop="name">Гид потребителя</span></a></li>
+                    </ul>
+                    <div class="linkOther">
+                        <p class="apps" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">Мобильные приложения:
+                        <a itemprop="url" href="/daily/mobile-ipad/"><span itemprop="name">iPad</span></a><a itemprop="url" href="/daily/mobile-iphone/"><span itemprop="name">iPhone</span></a><a itemprop="url" href="/daily/mobile-android/"><span itemprop="name">Android</span></a></p>
+                        <p itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" class="ebooks"><a itemprop="url" href="/daily/ebooks/"><span itemprop="name">Электронные книги</span></a></p>
+                    </div>
+                </nav>
+            </div>
+            <footer>
+                <div class="wrap">
+                    <span class="socialTitle">КП В СОЦСЕТЯХ</span>
+                    <ul class="socialNav">
+                        <li><a itemprop="url" href="https://icq.com/chat/kpru" title="Комсомольская правда в ICQ" class="button icq"><span itemprop="name">Комсомольская правда в ICQ</span></a></li>
+                        <li><a itemprop="url" href="https://www.youtube.com/user/kpru" title="Youtube Комсомольская правда" class="button youtube"><span itemprop="name">Youtube Комсомольская правда</span></a></li>
+                        <li><a itemprop="url" href="https://flipboard.com/@KPNews" title="Flipboard" class="button flipboard"><span itemprop="name">Flipboard</span></a></li>
+                        <!--li><a itemprop="url" href="https://telegram.me/truekpru" title="Телеграм федеральный" class="button telegram"><span itemprop="name">Телеграм федеральный</span></a></li-->
+                        <li><a itemprop="url" href="https://chats.viber.com/kpru" title="Viber КП" class="button viber"><span itemprop="name">Viber КП</span></a></li>
+                        <li><a itemprop="url" href="https://my.mail.ru/community/onlinekp.ru/" title="Мой Мир КП Central" class="button mail"><span itemprop="name">Мой Мир КП Central</span></a></li>
+                        <li><a itemprop="url" href="https://plus.google.com/u/0/112261544981697332354/posts" title="Google Plus" class="button google"><span itemprop="name">Google Plus</span></a></li>
+                        <li><a itemprop="url" href="https://ok.ru/kpru" title="odnoklassniki group kpru" class="button ok"><span itemprop="name">odnoklassniki group kpru</span></a></li>
+                        <li><a itemprop="url" href="https://www.twitter.com/kpru/" title="twitter onlinekpru" class="button twitter"><span itemprop="name">twitter onlinekpru</span></a></li>
+                        <li><a itemprop="url" href="https://vk.com/public15722194" title="vkontakte club15722194" class="button vk"><span itemprop="name">vkontakte club15722194</span></a></li>
+                    </ul>
+                    <div class="top">
+                        <div class="overWidth">
+                            <ul>
+                                <li></li>
+                                <li><a href="/subscribe/periodical/" title="">Подписка</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infoBlock">
+                        <div class="leftTxt">
+                            <p>УЧРЕДИТЕЛЬ И&nbsp;РЕДАКЦИЯ: АО ИД «Комсомольская правда».</p>
+                            <p>Сетевое издание (сайт) зарегистрировано Роскомнадзором, свидетельство Эл&nbsp;№&nbsp;ФC77-50166 от&nbsp;15 июня 2012. Главный редактор&nbsp;— Сунгоркин Владимир Николаевич. Шеф-редактор сайта&nbsp;— Носова Олеся Вячеславовна.</p>
+                            <p>Сообщения и&nbsp;комментарии читателей сайта размещаются без предварительного редактирования. Редакция оставляет за&nbsp;собой право удалить их&nbsp;с&nbsp;сайта или отредактировать, если указанные сообщения и&nbsp;комментарии являются злоупотреблением свободой массовой информации или нарушением иных требований закона.</p>
+                            <p class="age">ВОЗРАСТНАЯ КАТЕГОРИЯ САЙТА: <span>18+</span></p>
+                        </div>
+                        <div class="rightTxt">
+                            <p>127287, Москва, Старый Петровско-Разумовский проезд, 1/23, стр. 1. Тел. +7 (495) 777-02-82.</p>
+                            <p>Исключительные права на&nbsp;материалы, размещённые на&nbsp;интернет-сайте www.kp.ru, в&nbsp;соответствии с&nbsp;законодательством Российской Федерации об&nbsp;охране результатов интеллектуальной деятельности принадлежат АО «Издательский дом «Комсомольская правда», и&nbsp;не&nbsp;подлежат использованию другими лицами в&nbsp;какой&nbsp;бы то&nbsp;ни&nbsp;было форме без письменного разрешения правообладателя.</p>
+                            <p>Приобретение авторских прав: <a href="mailto:kp@kp.ru">kp@kp.ru</a></p>
+                            <p><a href="https://www.kp.ru/daily/26600.4/3615024/" target="_blank">Политика в отношении обработки персональных данных</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <div class="searchPopap popap" id="searchResultJS">
+        <div class="container">
+            <div class="head">
+                <h2>Результаты поиска</h2>
+                <button class="close searchResultCloseJS">x</button>
+            </div>
+            <div class="bodySearch">
+                <iframe name="serchResult" style="position: relative; overflow: hidden; width: 100%; height: 100%; border: none;" src="//kp.ru/search/index.html">
+                </iframe>
+            </div>
+        </div>
+        <span class="shadow searchResultCloseJS"></span>
+    </div>
+
+    <main role="main" class="main">
+
+
+
+
+<!--<style type="text/css">
+#headJS,
+#search-inset0,
+.menuHead {
+    display: none !important;
+}
+</style>-->
+
+
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/best/fixhead/share/fb.all.js"></script>
+<script type="text/javascript" src="/best/fixhead/share/index.js"></script>
+<script type="text/javascript" src="/best/fixhead/share/init.js"></script> 
+<script type="text/javascript" src="/best/fixhead/js.js"></script> 
+<script type="text/javascript" src="//kp.ru/js/module/post-robot.ie.min.js"></script>
+<script type="text/javascript" src="/best/msk/oprosy/js/auth.js"></script>
+
+<div class="slot-frame">
+    <div class="slot4" style="width: 100%;">
+<div id="adfox_150349610386933539"></div>
+<script>
+    window.Ya.adfoxCode.createAdaptive({
+        ownerId: 232598,
+        containerId: 'adfox_150349610386933539',
+        params: {
+            pp: 'lay',
+            ps: 'bxyd',
+            p2: 'fgqa',
+            puid1: '',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid5: 'noads',
+            puid6: '',
+            puid7: ''
+        }
+    }, ['tablet'], {
+        tabletWidth: 1599,
+		phoneWidth: 1152,
+        isAutoReloads: false
+    });
+</script>
+
+
+<div id="adfox_15034961210088371"></div>
+<script>
+    window.Ya.adfoxCode.createAdaptive({
+        ownerId: 232598,
+        containerId: 'adfox_15034961210088371',
+        params: {
+            pp: 'laz',
+            ps: 'bxyd',
+            p2: 'fgqa',
+            puid1: '',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid5: 'noads',
+            puid6: '',
+            puid7: ''
+        }
+    }, ['desktop'], {
+        tabletWidth: 1599,
+		phoneWidth: 1152,
+        isAutoReloads: false
+    });
+</script>
+
+    </div>
+</div>
+
+<div class="all_poll-new-in">
+    <div class="slot1">
+        <div id="adfox_149822060266693661"></div>
+        <script>
+            window.Ya.adfoxCode.create({
+                ownerId: 232598,
+                containerId: 'adfox_149822060266693661',
+                params: {
+                    pp: 'g',
+                    ps: 'bxyd',
+                    p2: 'fban',
+                    puid1: '',
+                    puid2: '',
+                    puid3: '',
+                    puid4: '',
+                    puid5: 'noads',
+                    puid6: '',
+                    puid7: ''
+                }
+            });
+        </script>
+    </div>
+
+    <div class="title">Голосование</div>
+
+    <div class="all_poll-new tula_klinikagoda">
+        <div class="polltitle">
+
+                     <div class="img">
+                                <a href="https://www.tula.kp.ru/daily/klinika-tula/" target="_blank">
+                                <img src="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg" title="Голосование за победителей проекта «Клиника года 2023» открыто!" />
+                                </a>
+                            </div>
+            
+            <p>Голосование за победителей проекта «Клиника года 2023» открыто!</p>
+
+                        <div><br>У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.<br>С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе <a href="http://www.tula.kp.ru/daily/klinika-tula">«Клиника года».</a>.<br><br>Итоги голосования будут объявлены накануне Дня медицинского работника.<br><br><strong>Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.</strong> </div>
+            
+        </div>
+
+                    			                            <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">1. «Лучшая клиника современных методов диагностики и лечения»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.03692885458%;"></span>
+                                                                <span class="unicredit_poll_results_count">529 (11.04%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿АНО «Клиника микрохирургии глаза ВЗГЛЯД®» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.1548090965992%;"></span>
+                                                                <span class="unicredit_poll_results_count">295 (6.15%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.2382641351972%;"></span>
+                                                                <span class="unicredit_poll_results_count">299 (6.24%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.9520133528062%;"></span>
+                                                                <span class="unicredit_poll_results_count">477 (9.95%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.0504902983518%;"></span>
+                                                                <span class="unicredit_poll_results_count">290 (6.05%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной наркологический диспансер №1» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.2576674316712%;"></span>
+                                                                <span class="unicredit_poll_results_count">252 (5.26%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.5259753807636%;"></span>
+                                                                <span class="unicredit_poll_results_count">169 (3.53%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.5080325474651%;"></span>
+                                                                <span class="unicredit_poll_results_count">264 (5.51%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 8.9922804089297%;"></span>
+                                                                <span class="unicredit_poll_results_count">431 (8.99%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр здорового зрения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.0698935948258%;"></span>
+                                                                <span class="unicredit_poll_results_count">243 (5.07%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.4216565825162%;"></span>
+                                                                <span class="unicredit_poll_results_count">164 (3.42%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.9728771124557%;"></span>
+                                                                <span class="unicredit_poll_results_count">478 (9.97%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 7.552680993115%;"></span>
+                                                                <span class="unicredit_poll_results_count">362 (7.55%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.0669726684749%;"></span>
+                                                                <span class="unicredit_poll_results_count">147 (3.07%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.6302941790111%;"></span>
+                                                                <span class="unicredit_poll_results_count">174 (3.63%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.5691633632381%;"></span>
+                                                                <span class="unicredit_poll_results_count">219 (4.57%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">2. «Лучшая клиника инновационных методов лечения в офтальмологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿АНО «Клиника микрохирургии глаза ВЗГЛЯД®» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 23.980815347722%;"></span>
+                                                                <span class="unicredit_poll_results_count">900 (23.98%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.814814814815%;"></span>
+                                                                <span class="unicredit_poll_results_count">556 (14.81%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.375965893952%;"></span>
+                                                                <span class="unicredit_poll_results_count">502 (13.38%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.068745003997%;"></span>
+                                                                <span class="unicredit_poll_results_count">528 (14.07%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 19.104716227018%;"></span>
+                                                                <span class="unicredit_poll_results_count">717 (19.10%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр здорового зрения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.654942712497%;"></span>
+                                                                <span class="unicredit_poll_results_count">550 (14.65%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">3. «Инновационные методы диагностики и лечения в стоматологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 23.384982121573%;"></span>
+                                                                <span class="unicredit_poll_results_count">981 (23.38%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.9165673420739%;"></span>
+                                                                <span class="unicredit_poll_results_count">416 (9.92%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 20.286054827175%;"></span>
+                                                                <span class="unicredit_poll_results_count">851 (20.29%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.5589988081049%;"></span>
+                                                                <span class="unicredit_poll_results_count">401 (9.56%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника«Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.851013110846%;"></span>
+                                                                <span class="unicredit_poll_results_count">623 (14.85%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.107270560191%;"></span>
+                                                                <span class="unicredit_poll_results_count">424 (10.11%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.895113230036%;"></span>
+                                                                <span class="unicredit_poll_results_count">499 (11.90%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">4. «Лучшая стоматологическая клиника региона»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 23.407643312102%;"></span>
+                                                                <span class="unicredit_poll_results_count">882 (23.41%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.64118895966%;"></span>
+                                                                <span class="unicredit_poll_results_count">514 (13.64%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.35881104034%;"></span>
+                                                                <span class="unicredit_poll_results_count">428 (11.36%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.119957537155%;"></span>
+                                                                <span class="unicredit_poll_results_count">419 (11.12%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника«Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.40127388535%;"></span>
+                                                                <span class="unicredit_poll_results_count">618 (16.40%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.889596602972%;"></span>
+                                                                <span class="unicredit_poll_results_count">448 (11.89%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.18152866242%;"></span>
+                                                                <span class="unicredit_poll_results_count">459 (12.18%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">5. Лучшая здравница комплексного лечения заболеваний</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий Строитель </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 52.155771905424%;"></span>
+                                                                <span class="unicredit_poll_results_count">1875 (52.16%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий (курорт) «Краинка» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 47.844228094576%;"></span>
+                                                                <span class="unicredit_poll_results_count">1720 (47.84%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">6. «Лучший санаторий оздоровительной и реабилитационной медицины»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий (курорт) «Краинка» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 51.814988290398%;"></span>
+                                                                <span class="unicredit_poll_results_count">1770 (51.81%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий Строитель </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 48.185011709602%;"></span>
+                                                                <span class="unicredit_poll_results_count">1646 (48.19%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">7. «Лучший кардиологический центр»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 27.968623208006%;"></span>
+                                                                <span class="unicredit_poll_results_count">1034 (27.97%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 17.040843927509%;"></span>
+                                                                <span class="unicredit_poll_results_count">630 (17.04%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.716256424128%;"></span>
+                                                                <span class="unicredit_poll_results_count">618 (16.72%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 21.61211793346%;"></span>
+                                                                <span class="unicredit_poll_results_count">799 (21.61%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.662158506897%;"></span>
+                                                                <span class="unicredit_poll_results_count">616 (16.66%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">8. «Лучшая психиатрическая клиника диагностики, лечения, реабилитации и профилактической медицины»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им.Н.П.Каменева» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 57.333333333333%;"></span>
+                                                                <span class="unicredit_poll_results_count">2021 (57.33%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной наркологический диспансер №1» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 42.666666666667%;"></span>
+                                                                <span class="unicredit_poll_results_count">1504 (42.67%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">9. «Лучший центр косметологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника Красоты </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 31.82141586624%;"></span>
+                                                                <span class="unicredit_poll_results_count">1789 (31.82%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины Елены Черных </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.3916755602988%;"></span>
+                                                                <span class="unicredit_poll_results_count">528 (9.39%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр эстетической медицины «Талисия» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.0633226609747%;"></span>
+                                                                <span class="unicredit_poll_results_count">116 (2.06%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.3084311632871%;"></span>
+                                                                <span class="unicredit_poll_results_count">186 (3.31%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.1899679829242%;"></span>
+                                                                <span class="unicredit_poll_results_count">348 (6.19%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.9526858769121%;"></span>
+                                                                <span class="unicredit_poll_results_count">166 (2.95%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины«Chronos Clinic» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 41.817858413376%;"></span>
+                                                                <span class="unicredit_poll_results_count">2351 (41.82%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.4546424759872%;"></span>
+                                                                <span class="unicredit_poll_results_count">138 (2.45%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">10. «Лучшая наркологическая клиника региона»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной наркологический диспансер №1» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 47.805171377029%;"></span>
+                                                                <span class="unicredit_poll_results_count">1590 (47.81%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 52.194828622971%;"></span>
+                                                                <span class="unicredit_poll_results_count">1736 (52.19%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">11.  «Лучшая клиника дерматологии и косметологии региона»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 34.980638023234%;"></span>
+                                                                <span class="unicredit_poll_results_count">1897 (34.98%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника Красоты </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 1.6411580306104%;"></span>
+                                                                <span class="unicredit_poll_results_count">89 (1.64%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины Елены Черных </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 8.9065093121888%;"></span>
+                                                                <span class="unicredit_poll_results_count">483 (8.91%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр эстетической медицины «Талисия» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 1.7517978978425%;"></span>
+                                                                <span class="unicredit_poll_results_count">95 (1.75%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.7717130739443%;"></span>
+                                                                <span class="unicredit_poll_results_count">313 (5.77%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿КЛИНИКА ЭКСПЕРТ ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.784436658676%;"></span>
+                                                                <span class="unicredit_poll_results_count">151 (2.78%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины«Chronos Clinic» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 41.877189747372%;"></span>
+                                                                <span class="unicredit_poll_results_count">2271 (41.88%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.2865572561313%;"></span>
+                                                                <span class="unicredit_poll_results_count">124 (2.29%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">12. «Лучшая многопрофильная клиника экспертного уровня для всей семьи»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 17.033542976939%;"></span>
+                                                                <span class="unicredit_poll_results_count">650 (17.03%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.582809224319%;"></span>
+                                                                <span class="unicredit_poll_results_count">442 (11.58%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.106918238994%;"></span>
+                                                                <span class="unicredit_poll_results_count">462 (12.11%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.6698113207547%;"></span>
+                                                                <span class="unicredit_poll_results_count">369 (9.67%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед»  </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.771488469602%;"></span>
+                                                                <span class="unicredit_poll_results_count">640 (16.77%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.534591194969%;"></span>
+                                                                <span class="unicredit_poll_results_count">402 (10.53%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.639412997904%;"></span>
+                                                                <span class="unicredit_poll_results_count">406 (10.64%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.66142557652%;"></span>
+                                                                <span class="unicredit_poll_results_count">445 (11.66%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">13.  «Лучшая клиника аппаратной косметологии и эстетической медицины»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины Елены Черных </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 37.953051643192%;"></span>
+                                                                <span class="unicredit_poll_results_count">2021 (37.95%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.4741784037559%;"></span>
+                                                                <span class="unicredit_poll_results_count">185 (3.47%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника Красоты </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 1.9342723004695%;"></span>
+                                                                <span class="unicredit_poll_results_count">103 (1.93%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр эстетической медицины «Талисия»  </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.1596244131455%;"></span>
+                                                                <span class="unicredit_poll_results_count">115 (2.16%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.3474178403756%;"></span>
+                                                                <span class="unicredit_poll_results_count">338 (6.35%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.5915492957746%;"></span>
+                                                                <span class="unicredit_poll_results_count">138 (2.59%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины «Chronos Clinic» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 43.042253521127%;"></span>
+                                                                <span class="unicredit_poll_results_count">2292 (43.04%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.4976525821596%;"></span>
+                                                                <span class="unicredit_poll_results_count">133 (2.50%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">14. «Лучшая многопрофильная клиника»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 17.61316872428%;"></span>
+                                                                <span class="unicredit_poll_results_count">642 (17.61%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.156378600823%;"></span>
+                                                                <span class="unicredit_poll_results_count">516 (14.16%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.796982167353%;"></span>
+                                                                <span class="unicredit_poll_results_count">430 (11.80%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.196159122085%;"></span>
+                                                                <span class="unicredit_poll_results_count">481 (13.20%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.123456790123%;"></span>
+                                                                <span class="unicredit_poll_results_count">369 (10.12%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.687242798354%;"></span>
+                                                                <span class="unicredit_poll_results_count">426 (11.69%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.123456790123%;"></span>
+                                                                <span class="unicredit_poll_results_count">369 (10.12%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.303155006859%;"></span>
+                                                                <span class="unicredit_poll_results_count">412 (11.30%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">15.  «Лучшая клиника эстетической стоматологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 17.770391204296%;"></span>
+                                                                <span class="unicredit_poll_results_count">695 (17.77%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 19.304525696753%;"></span>
+                                                                <span class="unicredit_poll_results_count">755 (19.30%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.602659166454%;"></span>
+                                                                <span class="unicredit_poll_results_count">532 (13.60%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.403733060598%;"></span>
+                                                                <span class="unicredit_poll_results_count">446 (11.40%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.9974431091792%;"></span>
+                                                                <span class="unicredit_poll_results_count">391 (10.00%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 15.673740731271%;"></span>
+                                                                <span class="unicredit_poll_results_count">613 (15.67%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.24750703145%;"></span>
+                                                                <span class="unicredit_poll_results_count">479 (12.25%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">16.  «Современные методы диагностики и лечения для всей семьи»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.70523415978%;"></span>
+                                                                <span class="unicredit_poll_results_count">597 (13.71%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.422405876951%;"></span>
+                                                                <span class="unicredit_poll_results_count">454 (10.42%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 7.277318640955%;"></span>
+                                                                <span class="unicredit_poll_results_count">317 (7.28%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.9357208448118%;"></span>
+                                                                <span class="unicredit_poll_results_count">215 (4.94%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 7.3691460055096%;"></span>
+                                                                <span class="unicredit_poll_results_count">321 (7.37%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.4306703397612%;"></span>
+                                                                <span class="unicredit_poll_results_count">193 (4.43%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.3131313131313%;"></span>
+                                                                <span class="unicredit_poll_results_count">275 (6.31%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий (курорт) «Краинка» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.3388429752066%;"></span>
+                                                                <span class="unicredit_poll_results_count">189 (4.34%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Санаторий Строитель </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.3030303030303%;"></span>
+                                                                <span class="unicredit_poll_results_count">231 (5.30%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿АНО «Клиника микрохирургии глаза ВЗГЛЯД®» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.0835629017447%;"></span>
+                                                                <span class="unicredit_poll_results_count">265 (6.08%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 8.4022038567493%;"></span>
+                                                                <span class="unicredit_poll_results_count">366 (8.40%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.9100091827365%;"></span>
+                                                                <span class="unicredit_poll_results_count">301 (6.91%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.2240587695133%;"></span>
+                                                                <span class="unicredit_poll_results_count">184 (4.22%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр здорового зрения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.0045913682277%;"></span>
+                                                                <span class="unicredit_poll_results_count">218 (5.00%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ» Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.2800734618916%;"></span>
+                                                                <span class="unicredit_poll_results_count">230 (5.28%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">17. «Лучшая клиника интеллектуальной косметологии и здоровья»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр эстетической медицины «Талисия» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 34.925426136364%;"></span>
+                                                                <span class="unicredit_poll_results_count">1967 (34.93%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины Елены Черных </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 8.5759943181818%;"></span>
+                                                                <span class="unicredit_poll_results_count">483 (8.58%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.8586647727273%;"></span>
+                                                                <span class="unicredit_poll_results_count">161 (2.86%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника Красоты </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 1.5447443181818%;"></span>
+                                                                <span class="unicredit_poll_results_count">87 (1.54%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.9836647727273%;"></span>
+                                                                <span class="unicredit_poll_results_count">337 (5.98%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.7166193181818%;"></span>
+                                                                <span class="unicredit_poll_results_count">153 (2.72%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины «Chronos Clinic» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 40.784801136364%;"></span>
+                                                                <span class="unicredit_poll_results_count">2297 (40.78%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 2.6100852272727%;"></span>
+                                                                <span class="unicredit_poll_results_count">147 (2.61%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">18. «Лучший специализированный центр диагностики и лечения»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр Подологии Доктора Дато </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.761513907889%;"></span>
+                                                                <span class="unicredit_poll_results_count">472 (10.76%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.1983584131327%;"></span>
+                                                                <span class="unicredit_poll_results_count">228 (5.20%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿АНО «Клиника микрохирургии глаза ВЗГЛЯД®» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.6771545827633%;"></span>
+                                                                <span class="unicredit_poll_results_count">249 (5.68%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.3839489284086%;"></span>
+                                                                <span class="unicredit_poll_results_count">280 (6.38%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.4391244870041%;"></span>
+                                                                <span class="unicredit_poll_results_count">414 (9.44%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.563155494756%;"></span>
+                                                                <span class="unicredit_poll_results_count">244 (5.56%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной наркологический диспансер №1» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.7455540355677%;"></span>
+                                                                <span class="unicredit_poll_results_count">252 (5.75%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.1267669858641%;"></span>
+                                                                <span class="unicredit_poll_results_count">181 (4.13%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.2015503875969%;"></span>
+                                                                <span class="unicredit_poll_results_count">272 (6.20%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.8267213862289%;"></span>
+                                                                <span class="unicredit_poll_results_count">431 (9.83%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр здорового зрения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 5.3807569539444%;"></span>
+                                                                <span class="unicredit_poll_results_count">236 (5.38%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.6707706338349%;"></span>
+                                                                <span class="unicredit_poll_results_count">161 (3.67%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 9.0287277701778%;"></span>
+                                                                <span class="unicredit_poll_results_count">396 (9.03%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.3319653442772%;"></span>
+                                                                <span class="unicredit_poll_results_count">190 (4.33%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 3.9899680802554%;"></span>
+                                                                <span class="unicredit_poll_results_count">175 (3.99%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.6739626082991%;"></span>
+                                                                <span class="unicredit_poll_results_count">205 (4.67%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">19. «Инновации, профессионализм и доступность в офтальмологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр здорового зрения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 22.556201060874%;"></span>
+                                                                <span class="unicredit_poll_results_count">893 (22.56%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿АНО «Клиника микрохирургии глаза ВЗГЛЯД®» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 20.813336701187%;"></span>
+                                                                <span class="unicredit_poll_results_count">824 (20.81%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.084112149533%;"></span>
+                                                                <span class="unicredit_poll_results_count">518 (13.08%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.553675170498%;"></span>
+                                                                <span class="unicredit_poll_results_count">497 (12.55%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.856782015661%;"></span>
+                                                                <span class="unicredit_poll_results_count">509 (12.86%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 18.135892902248%;"></span>
+                                                                <span class="unicredit_poll_results_count">718 (18.14%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">20. «Лучшая  стоматологическая клиника: эстетика, инновации, качество.»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической и функциональной стоматологии « Smile Spa» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.925777331996%;"></span>
+                                                                <span class="unicredit_poll_results_count">675 (16.93%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматология «ПрофиДент» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.092276830491%;"></span>
+                                                                <span class="unicredit_poll_results_count">562 (14.09%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 11.685055165496%;"></span>
+                                                                <span class="unicredit_poll_results_count">466 (11.69%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.387161484453%;"></span>
+                                                                <span class="unicredit_poll_results_count">494 (12.39%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 16.649949849549%;"></span>
+                                                                <span class="unicredit_poll_results_count">664 (16.65%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Стоматологическая клиника «L Dent» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 12.813440320963%;"></span>
+                                                                <span class="unicredit_poll_results_count">511 (12.81%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульская областная стоматологическая поликлиника» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 15.446339017051%;"></span>
+                                                                <span class="unicredit_poll_results_count">616 (15.45%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">21. «Лучшая клиника репродуктивного здоровья и планирования семьи»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ» Тула </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 21.963903334353%;"></span>
+                                                                <span class="unicredit_poll_results_count">718 (21.96%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.16335270725%;"></span>
+                                                                <span class="unicredit_poll_results_count">463 (14.16%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 14.928112572652%;"></span>
+                                                                <span class="unicredit_poll_results_count">488 (14.93%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ» ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 15.601101254206%;"></span>
+                                                                <span class="unicredit_poll_results_count">510 (15.60%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 20.097889262771%;"></span>
+                                                                <span class="unicredit_poll_results_count">657 (20.10%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Тульский центр диагностики и лечения </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.245640868767%;"></span>
+                                                                <span class="unicredit_poll_results_count">433 (13.25%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+                                        <div class="questiondata">
+                    <div class="question">
+
+                                                    <span class="noimg">22. «Лучшая клиника актуальной косметологии»</span>
+                                                                             <div> </div>
+                                            </div>
+                    <div class="unicredit_poll_results">
+                                                                                                <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины «Chronos Clinic» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 49.341225892687%;"></span>
+                                                                <span class="unicredit_poll_results_count">2584 (49.34%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Центр эстетической медицины «Талисия» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 7.0651136146649%;"></span>
+                                                                <span class="unicredit_poll_results_count">370 (7.07%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника эстетической медицины Елены Черных </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 13.82470880275%;"></span>
+                                                                <span class="unicredit_poll_results_count">724 (13.82%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ГУЗ «Тульский областной клинический кожно-венерологический диспансер» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 8.0771434027115%;"></span>
+                                                                <span class="unicredit_poll_results_count">423 (8.08%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Клиника Красоты </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 6.6450257781172%;"></span>
+                                                                <span class="unicredit_poll_results_count">348 (6.65%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿Многопрофильная клиника «Л`мед» </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 10.712239831965%;"></span>
+                                                                <span class="unicredit_poll_results_count">561 (10.71%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿«КЛИНИКА ЭКСПЕРТ»  ТУЛА </span>
+                                                                    <span class="unicredit_poll_results_line" style="width: 4.3345426771052%;"></span>
+                                                                <span class="unicredit_poll_results_count">227 (4.33%)</span>
+                            </span>
+                        </div>
+                                                                        <div class="unicredit_poll_results_block">
+                            <span class="unicredit_poll_results_answer">
+                                <span>﻿ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» </span>
+                                                                <span class="unicredit_poll_results_count">0 (0.00%)</span>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+            
+            
+						<div id="rezult_text" class="rezult_text">Всего: 7184 проголосовавших</div>
+			
+        		        <div class="share-block" 
+            data-share-title="Голосование за победителей проекта «Клиника года 2023» открыто!" 
+            data-share-descr="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются. " 
+            data-share-image="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg" 
+            data-share-url="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023"
+        >
+            <!--span class="unicredit_share_link" data-share-type="fb">
+                <img src="//www.kp.ru/best/fixhead/share/facebook_w.svg" class="dom_share_img" alt="">
+            </span-->
+            <span class="unicredit_share_link" data-share-type="tw">
+                <img src="//www.kp.ru/best/fixhead/share/twittre_w.svg" class="dom_share_img" alt="">
+            </span>
+            <span class="unicredit_share_link" data-share-type="vk">
+                <img src="//www.kp.ru/best/fixhead/share/vk_w.svg" class="dom_share_img" alt="">
+            </span>
+            <span class="unicredit_share_link" data-share-type="ok">
+                <img src="//www.kp.ru/best/fixhead/share/odnoklas_w.svg" class="dom_share_img" alt="">
+            </span>
+			
+        </div>
+		
+        		
+    </div>
+</div>
+</main>
+<!--script>
+    (function() {
+        var salt = "eb0e654c8d97d98441a897b600a38756";
+        var date = new Date();
+        var y = date.getFullYear();
+        var m = date.getMonth() + 1;
+        var d = date.getDate();
+        m = m < 10 ? "0" + m : m;
+        d = d < 10 ? "0" + d : d;
+        var pageNumber = "" + y + m + d;
+
+        var temp = ["pages.direction", "page", "pages.spot", "0", "pages.number", pageNumber, "pages.target.class", "999", "pages.target.id", "0", "sub", "0"];
+        var jsonpVarName = "a" + md5(temp.join("") + salt).substring(0, 8);
+        var url = "//s1.stc.m.kpcdn.net/content/api/1/pages/get.js/"+ jsonpVarName +"/?pages.direction=page&pages.spot=0&pages.number="+ pageNumber +"&pages.target.class=999&pages.target.id=0&sub=0";
+        var script = document.createElement("script");
+        script.onload = function(){
+            //Теперь, в
+            var json = window[jsonpVarName]
+            //должен находиться тот самый объект. Можно в консоли посмотреть
+            var eurValue = json.currency.eur.value;
+            var usdValue = json.currency.usd.value;
+
+            var usdContainer = document.querySelector('[data-currency="currency-usd"]');
+            var eurContainer = document.querySelector('[data-currency="currency-euro"]');
+
+            usdContainer.innerHTML = usdValue;
+            eurContainer.innerHTML = eurValue;
+            
+        }
+        script.src = url;
+        document.getElementsByTagName("script")[0].parentElement.appendChild(script);
+    })();
+
+</script-->
+<!--script type="text/javascript" src="/best/newheadkp/js/w.js"></script-->
+</body>
+</html>

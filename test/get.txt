@@ -1,0 +1,1817 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 06 Apr 2023 05:31:34 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 128202
+Connection: keep-alive
+access-control-allow-origin: *
+cache-control: private, must-revalidate
+x-powered-by: PHP/5.6.22
+
+
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Голосование за победителей проекта «Клиника года 2023» открыто!</title>
+        <meta name="description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="//s1.stc.all.kpcdn.net/best/newheadkp/favicon.ico" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="/best/newheadkp/css/header.css">
+        <link rel="stylesheet"  href="/best/newheadkp/css/tools.css">
+        <link rel="stylesheet"  href="/best/newheadkp/css/header-adaptive.css">
+        <script type="text/javascript" src="//s1.stc.all.kpcdn.net/best/newheadkp/js/jquery.js"></script>
+        
+        <script type="text/javascript" src="//s1.stc.all.kpcdn.net/best/newheadkp/js/common.js"></script>
+        <script type="text/javascript" src="/best/newheadkp/js/search.js"></script>
+        <script type="text/javascript" src="/best/assets/md5.js"></script>
+
+        <!-- og-tags для соцсетей -->
+        <meta name="mrc__share_title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta property="og:title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta itemprop="name" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <meta property="og:site_name" content="КП">
+        <!--meta property="fb:app_id" content="191944177588942"-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@onlinekpru">
+        <meta name="twitter:url" content="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <meta name="twitter:title" content="Голосование за победителей проекта «Клиника года 2023» открыто!">
+        <meta name="twitter:image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <link rel="image_src" href="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta property="og:image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta itemprop="image" content="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg">
+        <meta name="mrc__share_description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta property="og:description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta itemprop="description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <meta name="twitter:description" content="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.">
+        <link rel="canonical" href="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023">
+        <!-- og-tags для соцсетей -->
+
+        <link rel="stylesheet" type="text/css" href="/best/msk/oprosy/css/style.css?v=16082017">
+        <script type="text/javascript" src="/best/msk/oprosy/js/vendors/fp/fp2load.js"></script>
+
+    </head>
+
+    <body>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNCMRJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KNCMRJ');</script>
+    <!-- End Google Tag Manager -->
+
+    <header>
+        <div id="headJS">
+            <div class="topInfo flex-container">
+
+                <!-- logo -->
+                <div>
+                    <a href="//www.kp.ru/" title="Голосование за победителей проекта «Клиника года 2023» открыто!">
+                       <div class="logo ru">Комсомольская правда</div>
+                    </a>
+                </div> <!-- /logo -->
+
+                <div class="informerNew book-countdown">
+                    <a href="https://kp.ru/best/msk/podpiska/" target="_blank">
+                        <img class="informerNewImg" src="//s2.stc.all.kpcdn.net/share/i/cyan/02e9c2a3a92c352f50de483675ce3daa.png" width="83" height="77" />
+                        <span class="informerNewNote">Бесплатно!</span>
+                        <span class="blue">Не пропусти важные новости Подпишись!</span>
+                    </a>
+                </div>
+
+                <div id="headRadioBroadcasting">
+                    <div class="radioWidget">
+                        <div class="audioBlock">
+                            <a href="https://www.kp.ru/radio/">
+                                <span class="radioFrameTitle">Радио</span>
+                            </a>
+                            <div class="control">
+                                <a href="https://www.kp.ru/radio/" class="btnPlay text">
+                                    <span class="btnPlay btnVolume on"></span>
+                                    Слушать эфир
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- radio -->
+                <!--div class="radioFrame">
+                    <div class="block">
+                        <a class="radioFrame-link" href="/radio/fm/index.html" target="_blank">Play</a>
+                        <a class="radioFrame-link" href="/radio/">
+                            <span class="radioFrame-title">Радио</span>
+                            <p class="radioFrame-name">Комсомольская правда</p>
+                        </a>
+                    </div>
+                </div-->
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="menuHead">
+        <button class="btn_menu" id="btnMenuJS"><span></span></button>
+
+        <button class="btn_menu_close" id="btnMenuJS2">Закрыть меню</button>
+
+        <div class="HelpInfo">Тут все рубрики сайта</div>
+        <div class="logo-menu">
+            <a href="//kp.ru/" title="Главная страница Комсомольской правды">
+                <div id="goUpJS" class="goUpJS ru logo" style="display: inline-block;">
+                        Комсомольская правда
+                </div>
+            </a>
+        </div>
+        <ul class="sectionNav" style="max-width: 1360px;" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+            <li><a itemprop="url" href="https://www.kp.ru/politics/" title="Политика"><span itemprop="name">Политика</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/society/" title="Общество"><span itemprop="name">Общество</span></a></li>
+            <li><a href="https://www.kp.ru/economics/" title="Экономика">Экономика</a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/unrest/" title="В МИРЕ"><span itemprop="name">В МИРЕ</span></a></li>
+            <li><a itemprop="url" href="http://kpsport.ru/sport/?geo=0&amp;utm_campaign=kpsport" title="Спорт"><span itemprop="name">Спорт</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/stars/" title="Звезды"><span itemprop="name">Звезды</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/right-benefits/" title="Наши права"><span itemprop="name">Наши права</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/health/" title="Здоровье"><span itemprop="name">Здоровье</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/daily/science/" title="Наука"><span itemprop="name">Наука</span></a></li>
+            <li><a itemprop="url" class="shop-link" style="color: #C20509;" href="http://shop.kp.ru/" title="МАГАЗИН"><span itemprop="name">МАГАЗИН</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/dom/" title="Недвижимость"><span itemprop="name">Недвижимость</span></a></li>
+            <li><a itemprop="url" href="https://www.kp.ru/afisha/" title="АФИША"><span itemprop="name">АФИША</span></a></li>
+        </ul>
+    </div>
+
+    <div class="tools popap" id="jsTools">
+        <button class="goUp goUpJS" id="goUpJS">Наверх</button>
+
+        <div class="scrollTools">
+            <div class="menu">
+                <nav>
+                    <ul class="sectionNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/syria/" title="Война в Сирии"><span itemprop="name">Война в Сирии</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/politics/" title="Политика"><span itemprop="name">Политика</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/economics/" title="Экономика"><span itemprop="name">Экономика</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/society/" title="Общество"><span itemprop="name">Общество</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/allcolumn/" title="Колумнисты"><span itemprop="name">Колумнисты</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/incidents/" title="Происшествия"><span itemprop="name">Происшествия</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/putevoditel/" title="Путеводитель"><span itemprop="name">Путеводитель</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/stars/" title="Звезды"><span itemprop="name">Звезды</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/health/" title="Здоровье"><span itemprop="name">Здоровье</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/auto/" title="АВТО"><span itemprop="name">АВТО</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/best/msk/projects/" title="Спецпроекты"><span itemprop="name">Спецпроекты</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/sport/" title="Спорт"><span itemprop="name">Спорт</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/tourism/" title="Туризм"><span itemprop="name">Туризм</span></a></li>
+                        <li><a itemprop="url" href="http://best.kp.ru/msk/job/" title="Есть работа!"><span itemprop="name">Есть работа!</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/press/" title="Пресс-центр"><span itemprop="name">Пресс-центр</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/science/" title="Наука"><span itemprop="name">Наука</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/dom/" title="Недвижимость"><span itemprop="name">Недвижимость</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/subscribe/periodical/" title="Подписка"><span itemprop="name">Подписка</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/televizor/" title="Телевизор"><span itemprop="name">Телевизор</span></a></li>
+                        <li><a itemprop="url" href="http://shop.kp.ru/" title="ИНТЕРНЕТ-МАГАЗИН"><span itemprop="name">ИНТЕРНЕТ-МАГАЗИН</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/collections/" title="Коллекции"><span itemprop="name">Коллекции</span></a></li>
+                        <li><a itemprop="url" href="https://www.kp.ru/daily/far-hectare/" title="Дальневосточный прорыв"><span itemprop="name">Дальневосточный прорыв</span></a></li>
+                        <li><a href="http://promokod.kp.ru/" target="_blank">ПРОМОКОДЫ</a></li>
+                    </ul>
+                    <ul class="media" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="/photo/" title="Фото" class="photo"><span itemprop="name">Фото</span></a></li>
+                        <li><a itemprop="url" href="/video/" title="Фото" class="video"><span itemprop="name">Видео</span></a></li>
+                    </ul>
+                    <ul class="eventsNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="/daily/afisha/" title="Афиша" class="nav yellow"><span itemprop="name">Афиша</span></a></li>
+                        <li><a itemprop="url" href="/daily/bezopasnaya-strana/" title="Безопасная страна" class="nav yellow"><span itemprop="name">Безопасная страна</span></a></li>
+                        <li><a itemprop="url" href="/bonus/" title="Бонусный клуб" class="nav green"><span itemprop="name">Бонусный клуб</span></a></li>
+                        <li><a itemprop="url" href="/daily/unrest/" title="В мире" class="nav light-blue"><span itemprop="name">В мире</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/vich/" title="ВИЧ: что делать?" class="nav"><span itemprop="name">ВИЧ: что делать?</span></a></li>
+                        <li><a itemprop="url" href="/daily/vybory-prezidenta-rossii-2018/" title="Выборы-2018" class="nav blue"><span itemprop="name">Выборы-2018</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/kak-podgotovit-rebenka-k-ehkzamenam-i-vypusknomu/" title="Готовимся к поступлению в вуз" class="nav"><span itemprop="name">Готовимся к поступлению в вуз</span></a></li>
+                        <li><a itemprop="url" href="/daily/mydacha/" title="Дача" class="nav green"><span itemprop="name">Дача</span></a></li>
+                        <li><a itemprop="url" href="/daily/dobrovolec/" title="Доброволец" class="nav green"><span itemprop="name">Доброволец</span></a></li>
+                        <li><a itemprop="url" href="/special/" title="Дом. Семья" class="nav"><span itemprop="name">Дом. Семья</span></a></li>
+                        <li><a itemprop="url" href="/daily/animal/" title="Живой уголок" class="nav"><span itemprop="name">Живой уголок</span></a></li>
+                        <li><a itemprop="url" href="/daily/history/" title="История современности" class="nav green"><span itemprop="name">История современности</span></a></li>
+                        <li><a itemprop="url" href="/daily/tinkoff2017/" title="Как сохранить деньги" class="nav yellow"><span itemprop="name">Как сохранить деньги</span></a></li>
+                        <li><a itemprop="url" href="/daily/klub-lyuboznatelnyh/" title="Клуб любознательных" class="nav azure"><span itemprop="name">Клуб любознательных</span></a></li>
+                        <li><a itemprop="url" href="/daily/potrebit/" title="Клуб потребителей" class="nav red"><span itemprop="name">Клуб потребителей</span></a></li>
+                        <li><a itemprop="url" href="/daily/books/" title="Книжная полка" class="nav yellow"><span itemprop="name">Книжная полка</span></a></li>
+                        <li><a itemprop="url" href="/daily/culture/" title="Культура" class="nav green"><span itemprop="name">Культура</span></a></li>
+                        <li><a itemprop="url" href="/daily/mama/" title="Мама и малыш" class="nav pink"><span itemprop="name">Мама и малыш</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-futbolu-2018-marshrut-bolelshika/" title="Маршрут болельщика" class="nav red"><span itemprop="name">Маршрут болельщика</span></a></li>
+                        <li><a itemprop="url" href="/daily/26818.4/3854953/" title="Матрешки будущего" class="nav red"><span itemprop="name">Матрешки будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/right-benefits/" title="Наши права и льготы" class="nav grey"><span itemprop="name">Наши права и льготы</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/finansovaya-gramotnost/" title="Нелишние деньги" class="nav purple"><span itemprop="name">Нелишние деньги</span></a></li>
+                        <li><a itemprop="url" href="/daily/education/" title="Образование" class="nav azure"><span itemprop="name">Образование</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/4674/" title="Олег Табаков" class="nav black"><span itemprop="name">Олег Табаков</span></a></li>
+                        <li><a itemprop="url" href="/daily/diatlov-pass/" title="Перевал Дятлова" class="nav purple"><span itemprop="name">Перевал Дятлова</span></a></li>
+                        <li><a itemprop="url" href="/putevoditel/45-plus/" title="Правила счастливой жизни 45+" class="nav green"><span itemprop="name">Правила счастливой жизни 45+</span></a></li>
+                        <li><a itemprop="url" href="/daily/gurman/" title="Приятного аппетита" class="nav yellow"><span itemprop="name">Приятного аппетита</span></a></li>
+                        <li><a itemprop="url" href="/daily/akademia-timiryazeva/" title="Профессии будущего" class="nav"><span itemprop="name">Профессии будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/zimnie-olimpijskie-igry/" title="Пхенчхан-2018" class="nav lilac"><span itemprop="name">Пхенчхан-2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/rabochij-klass/" title="Рабочий? Класс!" class="nav blue"><span itemprop="name">Рабочий? Класс!</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/6774/" title="Сирия " class="nav red"><span itemprop="name">Сирия </span></a></li>
+                        <li><a itemprop="url" href="/daily/tips-mes/" title="Спасатель" class="nav azure"><span itemprop="name">Спасатель</span></a></li>
+                        <li><a itemprop="url" href="/daily/euromaidan/" title="Украина" class="nav grey"><span itemprop="name">Украина</span></a></li>
+                        <li><a itemprop="url" href="/daily/digital/" title="Умные вещи" class="nav blue"><span itemprop="name">Умные вещи</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-futbolu-2018-v-rossii/" title="Чемпионат мира по футболу 2018" class="nav green"><span itemprop="name">Чемпионат мира по футболу 2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/chempionat-mira-po-khokkeyu-s-shajboj/" title="Чемпионат мира по хоккею 2018" class="nav yellow"><span itemprop="name">Чемпионат мира по хоккею 2018</span></a></li>
+                        <li><a itemprop="url" href="/daily/gorod-budushego/" title="ЭКСПО 2025: город будущего" class="nav orange"><span itemprop="name">ЭКСПО 2025: город будущего</span></a></li>
+                        <li><a itemprop="url" href="/daily/ehkonomicheskie-forumy-v-rossii-v-2018-godu/" title="Экономические форумы" class="nav"><span itemprop="name">Экономические форумы</span></a></li>
+                    </ul>
+                    <ul class="kpNav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                        <li><a itemprop="url" href="http://best.kp.ru/msk/partners/" title="Наши партнеры"><span itemprop="name">Наши партнеры</span></a></li>
+                        <li style="display: none;"><a itemprop="url" href="/about/" title="Все о КП"><span itemprop="name">Все о КП</span></a></li>
+                        <li><a itemprop="url" href="/radio/" title="Радио КП"><span itemprop="name">Радио КП</span></a></li>
+                        <li><a itemprop="url" href="http://advert.kp.ru/kr/2355/2356/" title="Реклама"><span itemprop="name">Реклама</span></a></li>
+                        <li><a itemprop="url" href="/action/" title="Конкурсы и тесты"><span itemprop="name">Конкурсы и тесты</span></a></li>
+                        <li><a itemprop="url" href="/daily/theme/12360/" title="Новое на сайте"><span itemprop="name">Новое на сайте</span></a></li>
+                        <li><a itemprop="url" href="/guide/" title="Гид потребителя"><span itemprop="name">Гид потребителя</span></a></li>
+                    </ul>
+                    <div class="linkOther">
+                        <p class="apps" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">Мобильные приложения:
+                        <a itemprop="url" href="/daily/mobile-ipad/"><span itemprop="name">iPad</span></a><a itemprop="url" href="/daily/mobile-iphone/"><span itemprop="name">iPhone</span></a><a itemprop="url" href="/daily/mobile-android/"><span itemprop="name">Android</span></a></p>
+                        <p itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" class="ebooks"><a itemprop="url" href="/daily/ebooks/"><span itemprop="name">Электронные книги</span></a></p>
+                    </div>
+                </nav>
+            </div>
+            <footer>
+                <div class="wrap">
+                    <span class="socialTitle">КП В СОЦСЕТЯХ</span>
+                    <ul class="socialNav">
+                        <li><a itemprop="url" href="https://icq.com/chat/kpru" title="Комсомольская правда в ICQ" class="button icq"><span itemprop="name">Комсомольская правда в ICQ</span></a></li>
+                        <li><a itemprop="url" href="https://www.youtube.com/user/kpru" title="Youtube Комсомольская правда" class="button youtube"><span itemprop="name">Youtube Комсомольская правда</span></a></li>
+                        <li><a itemprop="url" href="https://flipboard.com/@KPNews" title="Flipboard" class="button flipboard"><span itemprop="name">Flipboard</span></a></li>
+                        <!--li><a itemprop="url" href="https://telegram.me/truekpru" title="Телеграм федеральный" class="button telegram"><span itemprop="name">Телеграм федеральный</span></a></li-->
+                        <li><a itemprop="url" href="https://chats.viber.com/kpru" title="Viber КП" class="button viber"><span itemprop="name">Viber КП</span></a></li>
+                        <li><a itemprop="url" href="https://my.mail.ru/community/onlinekp.ru/" title="Мой Мир КП Central" class="button mail"><span itemprop="name">Мой Мир КП Central</span></a></li>
+                        <li><a itemprop="url" href="https://plus.google.com/u/0/112261544981697332354/posts" title="Google Plus" class="button google"><span itemprop="name">Google Plus</span></a></li>
+                        <li><a itemprop="url" href="https://ok.ru/kpru" title="odnoklassniki group kpru" class="button ok"><span itemprop="name">odnoklassniki group kpru</span></a></li>
+                        <li><a itemprop="url" href="https://www.twitter.com/kpru/" title="twitter onlinekpru" class="button twitter"><span itemprop="name">twitter onlinekpru</span></a></li>
+                        <li><a itemprop="url" href="https://vk.com/public15722194" title="vkontakte club15722194" class="button vk"><span itemprop="name">vkontakte club15722194</span></a></li>
+                    </ul>
+                    <div class="top">
+                        <div class="overWidth">
+                            <ul>
+                                <li></li>
+                                <li><a href="/subscribe/periodical/" title="">Подписка</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infoBlock">
+                        <div class="leftTxt">
+                            <p>УЧРЕДИТЕЛЬ И&nbsp;РЕДАКЦИЯ: АО ИД «Комсомольская правда».</p>
+                            <p>Сетевое издание (сайт) зарегистрировано Роскомнадзором, свидетельство Эл&nbsp;№&nbsp;ФC77-50166 от&nbsp;15 июня 2012. Главный редактор&nbsp;— Сунгоркин Владимир Николаевич. Шеф-редактор сайта&nbsp;— Носова Олеся Вячеславовна.</p>
+                            <p>Сообщения и&nbsp;комментарии читателей сайта размещаются без предварительного редактирования. Редакция оставляет за&nbsp;собой право удалить их&nbsp;с&nbsp;сайта или отредактировать, если указанные сообщения и&nbsp;комментарии являются злоупотреблением свободой массовой информации или нарушением иных требований закона.</p>
+                            <p class="age">ВОЗРАСТНАЯ КАТЕГОРИЯ САЙТА: <span>18+</span></p>
+                        </div>
+                        <div class="rightTxt">
+                            <p>127287, Москва, Старый Петровско-Разумовский проезд, 1/23, стр. 1. Тел. +7 (495) 777-02-82.</p>
+                            <p>Исключительные права на&nbsp;материалы, размещённые на&nbsp;интернет-сайте www.kp.ru, в&nbsp;соответствии с&nbsp;законодательством Российской Федерации об&nbsp;охране результатов интеллектуальной деятельности принадлежат АО «Издательский дом «Комсомольская правда», и&nbsp;не&nbsp;подлежат использованию другими лицами в&nbsp;какой&nbsp;бы то&nbsp;ни&nbsp;было форме без письменного разрешения правообладателя.</p>
+                            <p>Приобретение авторских прав: <a href="mailto:kp@kp.ru">kp@kp.ru</a></p>
+                            <p><a href="https://www.kp.ru/daily/26600.4/3615024/" target="_blank">Политика в отношении обработки персональных данных</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <div class="searchPopap popap" id="searchResultJS">
+        <div class="container">
+            <div class="head">
+                <h2>Результаты поиска</h2>
+                <button class="close searchResultCloseJS">x</button>
+            </div>
+            <div class="bodySearch">
+                <iframe name="serchResult" style="position: relative; overflow: hidden; width: 100%; height: 100%; border: none;" src="//kp.ru/search/index.html">
+                </iframe>
+            </div>
+        </div>
+        <span class="shadow searchResultCloseJS"></span>
+    </div>
+
+    <main role="main" class="main">
+
+
+
+
+<!--<style type="text/css">
+#headJS,
+#search-inset0,
+.menuHead {
+    display: none !important;
+}
+</style>-->
+
+
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/best/fixhead/share/fb.all.js"></script>
+<script type="text/javascript" src="/best/fixhead/share/index.js"></script>
+<script type="text/javascript" src="/best/fixhead/share/init.js"></script> 
+<script type="text/javascript" src="/best/fixhead/js.js"></script> 
+<script type="text/javascript" src="//kp.ru/js/module/post-robot.ie.min.js"></script>
+<script type="text/javascript" src="/best/msk/oprosy/js/auth.js"></script>
+
+<div class="slot-frame">
+    <div class="slot4" style="width: 100%;">
+<div id="adfox_150349610386933539"></div>
+<script>
+    window.Ya.adfoxCode.createAdaptive({
+        ownerId: 232598,
+        containerId: 'adfox_150349610386933539',
+        params: {
+            pp: 'lay',
+            ps: 'bxyd',
+            p2: 'fgqa',
+            puid1: '',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid5: 'noads',
+            puid6: '',
+            puid7: ''
+        }
+    }, ['tablet'], {
+        tabletWidth: 1599,
+		phoneWidth: 1152,
+        isAutoReloads: false
+    });
+</script>
+
+
+<div id="adfox_15034961210088371"></div>
+<script>
+    window.Ya.adfoxCode.createAdaptive({
+        ownerId: 232598,
+        containerId: 'adfox_15034961210088371',
+        params: {
+            pp: 'laz',
+            ps: 'bxyd',
+            p2: 'fgqa',
+            puid1: '',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid5: 'noads',
+            puid6: '',
+            puid7: ''
+        }
+    }, ['desktop'], {
+        tabletWidth: 1599,
+		phoneWidth: 1152,
+        isAutoReloads: false
+    });
+</script>
+
+    </div>
+</div>
+
+<div class="all_poll-new-in">
+    <div class="slot1">
+        <div id="adfox_149822060266693661"></div>
+        <script>
+            window.Ya.adfoxCode.create({
+                ownerId: 232598,
+                containerId: 'adfox_149822060266693661',
+                params: {
+                    pp: 'g',
+                    ps: 'bxyd',
+                    p2: 'fban',
+                    puid1: '',
+                    puid2: '',
+                    puid3: '',
+                    puid4: '',
+                    puid5: 'noads',
+                    puid6: '',
+                    puid7: ''
+                }
+            });
+        </script>
+    </div>
+
+    <div class="title">Голосование</div>
+
+    <div class="all_poll-new tula_klinikagoda">
+        <div class="polltitle">
+
+                     <div class="img">
+                                <a href="https://www.tula.kp.ru/daily/klinika-tula/" target="_blank">
+                                <img src="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg" title="Голосование за победителей проекта «Клиника года 2023» открыто!" />
+                                </a>
+                            </div>
+            
+            <p>Голосование за победителей проекта «Клиника года 2023» открыто!</p>
+
+                        <div><br>У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.<br>С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе <a href="http://www.tula.kp.ru/daily/klinika-tula">«Клиника года».</a>.<br><br>Итоги голосования будут объявлены накануне Дня медицинского работника.<br><br><strong>Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются.</strong> </div>
+            
+        </div>
+
+        
+        <form action="" method="POST">
+                                                <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">1. «Лучшая клиника современных методов диагностики и лечения»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp1" type="radio" name="inp-0-0" value="0" />
+                        <label for="inp1">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp2" type="radio" name="inp-0-0" value="1" />
+                        <label for="inp2">
+                            АНО «Клиника микрохирургии глаза ВЗГЛЯД®» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp3" type="radio" name="inp-0-0" value="2" />
+                        <label for="inp3">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp4" type="radio" name="inp-0-0" value="3" />
+                        <label for="inp4">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp5" type="radio" name="inp-0-0" value="4" />
+                        <label for="inp5">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp6" type="radio" name="inp-0-0" value="5" />
+                        <label for="inp6">
+                            ГУЗ «Тульский областной наркологический диспансер №1» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp7" type="radio" name="inp-0-0" value="6" />
+                        <label for="inp7">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp8" type="radio" name="inp-0-0" value="7" />
+                        <label for="inp8">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp9" type="radio" name="inp-0-0" value="8" />
+                        <label for="inp9">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp10" type="radio" name="inp-0-0" value="9" />
+                        <label for="inp10">
+                            Центр здорового зрения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp11" type="radio" name="inp-0-0" value="10" />
+                        <label for="inp11">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp12" type="radio" name="inp-0-0" value="11" />
+                        <label for="inp12">
+                            ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp13" type="radio" name="inp-0-0" value="12" />
+                        <label for="inp13">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp14" type="radio" name="inp-0-0" value="13" />
+                        <label for="inp14">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp15" type="radio" name="inp-0-0" value="14" />
+                        <label for="inp15">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp16" type="radio" name="inp-0-0" value="15" />
+                        <label for="inp16">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">2. «Лучшая клиника инновационных методов лечения в офтальмологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp17" type="radio" name="inp-1-0" value="0" />
+                        <label for="inp17">
+                            АНО «Клиника микрохирургии глаза ВЗГЛЯД®» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp18" type="radio" name="inp-1-0" value="1" />
+                        <label for="inp18">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp19" type="radio" name="inp-1-0" value="2" />
+                        <label for="inp19">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp20" type="radio" name="inp-1-0" value="3" />
+                        <label for="inp20">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp21" type="radio" name="inp-1-0" value="4" />
+                        <label for="inp21">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp22" type="radio" name="inp-1-0" value="5" />
+                        <label for="inp22">
+                            Центр здорового зрения 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">3. «Инновационные методы диагностики и лечения в стоматологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp23" type="radio" name="inp-2-0" value="0" />
+                        <label for="inp23">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp24" type="radio" name="inp-2-0" value="1" />
+                        <label for="inp24">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp25" type="radio" name="inp-2-0" value="2" />
+                        <label for="inp25">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp26" type="radio" name="inp-2-0" value="3" />
+                        <label for="inp26">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp27" type="radio" name="inp-2-0" value="4" />
+                        <label for="inp27">
+                            Многопрофильная клиника«Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp28" type="radio" name="inp-2-0" value="5" />
+                        <label for="inp28">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp29" type="radio" name="inp-2-0" value="6" />
+                        <label for="inp29">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">4. «Лучшая стоматологическая клиника региона»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp30" type="radio" name="inp-3-0" value="0" />
+                        <label for="inp30">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp31" type="radio" name="inp-3-0" value="1" />
+                        <label for="inp31">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp32" type="radio" name="inp-3-0" value="2" />
+                        <label for="inp32">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp33" type="radio" name="inp-3-0" value="3" />
+                        <label for="inp33">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp34" type="radio" name="inp-3-0" value="4" />
+                        <label for="inp34">
+                            Многопрофильная клиника«Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp35" type="radio" name="inp-3-0" value="5" />
+                        <label for="inp35">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp36" type="radio" name="inp-3-0" value="6" />
+                        <label for="inp36">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">5. Лучшая здравница комплексного лечения заболеваний</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp37" type="radio" name="inp-4-0" value="0" />
+                        <label for="inp37">
+                            Санаторий Строитель 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp38" type="radio" name="inp-4-0" value="1" />
+                        <label for="inp38">
+                            Санаторий (курорт) «Краинка» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">6. «Лучший санаторий оздоровительной и реабилитационной медицины»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp39" type="radio" name="inp-5-0" value="0" />
+                        <label for="inp39">
+                            Санаторий (курорт) «Краинка» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp40" type="radio" name="inp-5-0" value="1" />
+                        <label for="inp40">
+                            Санаторий Строитель 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">7. «Лучший кардиологический центр»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp41" type="radio" name="inp-6-0" value="0" />
+                        <label for="inp41">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp42" type="radio" name="inp-6-0" value="1" />
+                        <label for="inp42">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp43" type="radio" name="inp-6-0" value="2" />
+                        <label for="inp43">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp44" type="radio" name="inp-6-0" value="3" />
+                        <label for="inp44">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp45" type="radio" name="inp-6-0" value="4" />
+                        <label for="inp45">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">8. «Лучшая психиатрическая клиника диагностики, лечения, реабилитации и профилактической медицины»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp46" type="radio" name="inp-7-0" value="0" />
+                        <label for="inp46">
+                            ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им.Н.П.Каменева» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp47" type="radio" name="inp-7-0" value="1" />
+                        <label for="inp47">
+                            ГУЗ «Тульский областной наркологический диспансер №1» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">9. «Лучший центр косметологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp48" type="radio" name="inp-8-0" value="0" />
+                        <label for="inp48">
+                            Клиника Красоты 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp49" type="radio" name="inp-8-0" value="1" />
+                        <label for="inp49">
+                            Клиника эстетической медицины Елены Черных 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp50" type="radio" name="inp-8-0" value="2" />
+                        <label for="inp50">
+                            Центр эстетической медицины «Талисия» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp51" type="radio" name="inp-8-0" value="3" />
+                        <label for="inp51">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp52" type="radio" name="inp-8-0" value="4" />
+                        <label for="inp52">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp53" type="radio" name="inp-8-0" value="5" />
+                        <label for="inp53">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp54" type="radio" name="inp-8-0" value="6" />
+                        <label for="inp54">
+                            Клиника эстетической медицины«Chronos Clinic» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp55" type="radio" name="inp-8-0" value="7" />
+                        <label for="inp55">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">10. «Лучшая наркологическая клиника региона»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp56" type="radio" name="inp-9-0" value="0" />
+                        <label for="inp56">
+                            ГУЗ «Тульский областной наркологический диспансер №1» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp57" type="radio" name="inp-9-0" value="1" />
+                        <label for="inp57">
+                            ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">11.  «Лучшая клиника дерматологии и косметологии региона»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp58" type="radio" name="inp-10-0" value="0" />
+                        <label for="inp58">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp59" type="radio" name="inp-10-0" value="1" />
+                        <label for="inp59">
+                            Клиника Красоты 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp60" type="radio" name="inp-10-0" value="2" />
+                        <label for="inp60">
+                            Клиника эстетической медицины Елены Черных 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp61" type="radio" name="inp-10-0" value="3" />
+                        <label for="inp61">
+                            Центр эстетической медицины «Талисия» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp62" type="radio" name="inp-10-0" value="4" />
+                        <label for="inp62">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp63" type="radio" name="inp-10-0" value="5" />
+                        <label for="inp63">
+                            КЛИНИКА ЭКСПЕРТ ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp64" type="radio" name="inp-10-0" value="6" />
+                        <label for="inp64">
+                            Клиника эстетической медицины«Chronos Clinic» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp65" type="radio" name="inp-10-0" value="7" />
+                        <label for="inp65">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">12. «Лучшая многопрофильная клиника экспертного уровня для всей семьи»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp66" type="radio" name="inp-11-0" value="0" />
+                        <label for="inp66">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp67" type="radio" name="inp-11-0" value="1" />
+                        <label for="inp67">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp68" type="radio" name="inp-11-0" value="2" />
+                        <label for="inp68">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp69" type="radio" name="inp-11-0" value="3" />
+                        <label for="inp69">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp70" type="radio" name="inp-11-0" value="4" />
+                        <label for="inp70">
+                            Многопрофильная клиника «Л`мед»  
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp71" type="radio" name="inp-11-0" value="5" />
+                        <label for="inp71">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp72" type="radio" name="inp-11-0" value="6" />
+                        <label for="inp72">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp73" type="radio" name="inp-11-0" value="7" />
+                        <label for="inp73">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">13.  «Лучшая клиника аппаратной косметологии и эстетической медицины»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp74" type="radio" name="inp-12-0" value="0" />
+                        <label for="inp74">
+                            Клиника эстетической медицины Елены Черных 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp75" type="radio" name="inp-12-0" value="1" />
+                        <label for="inp75">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp76" type="radio" name="inp-12-0" value="2" />
+                        <label for="inp76">
+                            Клиника Красоты 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp77" type="radio" name="inp-12-0" value="3" />
+                        <label for="inp77">
+                            Центр эстетической медицины «Талисия»  
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp78" type="radio" name="inp-12-0" value="4" />
+                        <label for="inp78">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp79" type="radio" name="inp-12-0" value="5" />
+                        <label for="inp79">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp80" type="radio" name="inp-12-0" value="6" />
+                        <label for="inp80">
+                            Клиника эстетической медицины «Chronos Clinic» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp81" type="radio" name="inp-12-0" value="7" />
+                        <label for="inp81">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">14. «Лучшая многопрофильная клиника»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp82" type="radio" name="inp-13-0" value="0" />
+                        <label for="inp82">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp83" type="radio" name="inp-13-0" value="1" />
+                        <label for="inp83">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp84" type="radio" name="inp-13-0" value="2" />
+                        <label for="inp84">
+                            ЧУЗ «Клиническая больница  «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp85" type="radio" name="inp-13-0" value="3" />
+                        <label for="inp85">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp86" type="radio" name="inp-13-0" value="4" />
+                        <label for="inp86">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp87" type="radio" name="inp-13-0" value="5" />
+                        <label for="inp87">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp88" type="radio" name="inp-13-0" value="6" />
+                        <label for="inp88">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp89" type="radio" name="inp-13-0" value="7" />
+                        <label for="inp89">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">15.  «Лучшая клиника эстетической стоматологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp90" type="radio" name="inp-14-0" value="0" />
+                        <label for="inp90">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp91" type="radio" name="inp-14-0" value="1" />
+                        <label for="inp91">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp92" type="radio" name="inp-14-0" value="2" />
+                        <label for="inp92">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp93" type="radio" name="inp-14-0" value="3" />
+                        <label for="inp93">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp94" type="radio" name="inp-14-0" value="4" />
+                        <label for="inp94">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp95" type="radio" name="inp-14-0" value="5" />
+                        <label for="inp95">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp96" type="radio" name="inp-14-0" value="6" />
+                        <label for="inp96">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">16.  «Современные методы диагностики и лечения для всей семьи»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp97" type="radio" name="inp-15-0" value="0" />
+                        <label for="inp97">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp98" type="radio" name="inp-15-0" value="1" />
+                        <label for="inp98">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp99" type="radio" name="inp-15-0" value="2" />
+                        <label for="inp99">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp100" type="radio" name="inp-15-0" value="3" />
+                        <label for="inp100">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp101" type="radio" name="inp-15-0" value="4" />
+                        <label for="inp101">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp102" type="radio" name="inp-15-0" value="5" />
+                        <label for="inp102">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp103" type="radio" name="inp-15-0" value="6" />
+                        <label for="inp103">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp104" type="radio" name="inp-15-0" value="7" />
+                        <label for="inp104">
+                            Санаторий (курорт) «Краинка» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp105" type="radio" name="inp-15-0" value="8" />
+                        <label for="inp105">
+                            Санаторий Строитель 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp106" type="radio" name="inp-15-0" value="9" />
+                        <label for="inp106">
+                            АНО «Клиника микрохирургии глаза ВЗГЛЯД®» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp107" type="radio" name="inp-15-0" value="10" />
+                        <label for="inp107">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp108" type="radio" name="inp-15-0" value="11" />
+                        <label for="inp108">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp109" type="radio" name="inp-15-0" value="12" />
+                        <label for="inp109">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp110" type="radio" name="inp-15-0" value="13" />
+                        <label for="inp110">
+                            Центр здорового зрения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp111" type="radio" name="inp-15-0" value="14" />
+                        <label for="inp111">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ» Тула 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">17. «Лучшая клиника интеллектуальной косметологии и здоровья»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp112" type="radio" name="inp-16-0" value="0" />
+                        <label for="inp112">
+                            Центр эстетической медицины «Талисия» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp113" type="radio" name="inp-16-0" value="1" />
+                        <label for="inp113">
+                            Клиника эстетической медицины Елены Черных 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp114" type="radio" name="inp-16-0" value="2" />
+                        <label for="inp114">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp115" type="radio" name="inp-16-0" value="3" />
+                        <label for="inp115">
+                            Клиника Красоты 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp116" type="radio" name="inp-16-0" value="4" />
+                        <label for="inp116">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp117" type="radio" name="inp-16-0" value="5" />
+                        <label for="inp117">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp118" type="radio" name="inp-16-0" value="6" />
+                        <label for="inp118">
+                            Клиника эстетической медицины «Chronos Clinic» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp119" type="radio" name="inp-16-0" value="7" />
+                        <label for="inp119">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">18. «Лучший специализированный центр диагностики и лечения»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp120" type="radio" name="inp-17-0" value="0" />
+                        <label for="inp120">
+                            Центр Подологии Доктора Дато 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp121" type="radio" name="inp-17-0" value="1" />
+                        <label for="inp121">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp122" type="radio" name="inp-17-0" value="2" />
+                        <label for="inp122">
+                            АНО «Клиника микрохирургии глаза ВЗГЛЯД®» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp123" type="radio" name="inp-17-0" value="3" />
+                        <label for="inp123">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp124" type="radio" name="inp-17-0" value="4" />
+                        <label for="inp124">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp125" type="radio" name="inp-17-0" value="5" />
+                        <label for="inp125">
+                            ГУЗ  «Тульский областной клинический кардиологический диспансер»(Городская больница № 13 г. Тулы) 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp126" type="radio" name="inp-17-0" value="6" />
+                        <label for="inp126">
+                            ГУЗ «Тульский областной наркологический диспансер №1» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp127" type="radio" name="inp-17-0" value="7" />
+                        <label for="inp127">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp128" type="radio" name="inp-17-0" value="8" />
+                        <label for="inp128">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp129" type="radio" name="inp-17-0" value="9" />
+                        <label for="inp129">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp130" type="radio" name="inp-17-0" value="10" />
+                        <label for="inp130">
+                            Центр здорового зрения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp131" type="radio" name="inp-17-0" value="11" />
+                        <label for="inp131">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp132" type="radio" name="inp-17-0" value="12" />
+                        <label for="inp132">
+                            ГУЗ «Тульская областная клиническая психиатрическая больница № 1 им. Н.П.Каменева» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp133" type="radio" name="inp-17-0" value="13" />
+                        <label for="inp133">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp134" type="radio" name="inp-17-0" value="14" />
+                        <label for="inp134">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp135" type="radio" name="inp-17-0" value="15" />
+                        <label for="inp135">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ»  Тула 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">19. «Инновации, профессионализм и доступность в офтальмологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp136" type="radio" name="inp-18-0" value="0" />
+                        <label for="inp136">
+                            Центр здорового зрения 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp137" type="radio" name="inp-18-0" value="1" />
+                        <label for="inp137">
+                            АНО «Клиника микрохирургии глаза ВЗГЛЯД®» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp138" type="radio" name="inp-18-0" value="2" />
+                        <label for="inp138">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp139" type="radio" name="inp-18-0" value="3" />
+                        <label for="inp139">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp140" type="radio" name="inp-18-0" value="4" />
+                        <label for="inp140">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp141" type="radio" name="inp-18-0" value="5" />
+                        <label for="inp141">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">20. «Лучшая  стоматологическая клиника: эстетика, инновации, качество.»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp142" type="radio" name="inp-19-0" value="0" />
+                        <label for="inp142">
+                            Клиника эстетической и функциональной стоматологии « Smile Spa» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp143" type="radio" name="inp-19-0" value="1" />
+                        <label for="inp143">
+                            Стоматология «ПрофиДент» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp144" type="radio" name="inp-19-0" value="2" />
+                        <label for="inp144">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp145" type="radio" name="inp-19-0" value="3" />
+                        <label for="inp145">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp146" type="radio" name="inp-19-0" value="4" />
+                        <label for="inp146">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp147" type="radio" name="inp-19-0" value="5" />
+                        <label for="inp147">
+                            Стоматологическая клиника «L Dent» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp148" type="radio" name="inp-19-0" value="6" />
+                        <label for="inp148">
+                            ГУЗ «Тульская областная стоматологическая поликлиника» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">21. «Лучшая клиника репродуктивного здоровья и планирования семьи»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp149" type="radio" name="inp-20-0" value="0" />
+                        <label for="inp149">
+                            Сеть многопрофильных медицинских центров «МАТЬ и ДИТЯ» Тула 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp150" type="radio" name="inp-20-0" value="1" />
+                        <label for="inp150">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp151" type="radio" name="inp-20-0" value="2" />
+                        <label for="inp151">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp152" type="radio" name="inp-20-0" value="3" />
+                        <label for="inp152">
+                            «КЛИНИКА ЭКСПЕРТ» ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp153" type="radio" name="inp-20-0" value="4" />
+                        <label for="inp153">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp154" type="radio" name="inp-20-0" value="5" />
+                        <label for="inp154">
+                            Тульский центр диагностики и лечения 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+                                    <div class="questiondata">
+                <div class="question">
+
+                                            <span class="noimg">22. «Лучшая клиника актуальной косметологии»</span>
+                                                                        <div> </div>
+                                        </div>
+                <div class="answers">
+                                                            <div class="answer">
+                                            <input id="inp155" type="radio" name="inp-21-0" value="0" />
+                        <label for="inp155">
+                            Клиника эстетической медицины «Chronos Clinic» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp156" type="radio" name="inp-21-0" value="1" />
+                        <label for="inp156">
+                            Центр эстетической медицины «Талисия» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp157" type="radio" name="inp-21-0" value="2" />
+                        <label for="inp157">
+                            Клиника эстетической медицины Елены Черных 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp158" type="radio" name="inp-21-0" value="3" />
+                        <label for="inp158">
+                            ГУЗ «Тульский областной клинический кожно-венерологический диспансер» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp159" type="radio" name="inp-21-0" value="4" />
+                        <label for="inp159">
+                            Клиника Красоты 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp160" type="radio" name="inp-21-0" value="5" />
+                        <label for="inp160">
+                            Многопрофильная клиника «Л`мед» 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp161" type="radio" name="inp-21-0" value="6" />
+                        <label for="inp161">
+                            «КЛИНИКА ЭКСПЕРТ»  ТУЛА 
+                                                    </label>
+                    
+                    </div>
+                                                            <div class="answer">
+                                            <input id="inp162" type="radio" name="inp-21-0" value="7" />
+                        <label for="inp162">
+                            ЧУЗ «Клиническая больница «РЖД-Медицина» г. Тула» 
+                                                    </label>
+                    
+                    </div>
+                                    </div>
+            </div>
+            
+            
+            <input type="hidden" name="vote" value="1" />
+            <div class="infoblock">
+                                <input id="submit_vote" type="submit" class="button" value="Ответить" />
+                            </div>
+        </form>
+
+        		        <div class="share-block" 
+            data-share-title="Голосование за победителей проекта «Клиника года 2023» открыто!" 
+            data-share-descr="У Вас есть уникальная возможность одним «кликом» выбрать лучшую клинику Тулы в 22 номинациях.С 15 февраля по 13 июня на страницах еженедельника «Комсомольская правда» в Туле» и на сайте tula.kp.ru вы гарантированно узнаете много нужной и полезной информации. Подробнее о каждом медцентре и талантливых врачах, новых методах лечения, современной диагностике и инновационной медицинской аппаратуре вы можете узнать на нашем сайте в разделе «Клиника года»..Итоги голосования будут объявлены накануне Дня медицинского работника.Важно! Ход голосования проверяется. Голоса, имеющие признаки «накруток», удаляются. " 
+            data-share-image="https://s2.stc.all.kpcdn.net/best/msk/oprosy/images/tulaklinika2023.jpg" 
+            data-share-url="https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023"
+        >
+            <!--span class="unicredit_share_link" data-share-type="fb">
+                <img src="//www.kp.ru/best/fixhead/share/facebook_w.svg" class="dom_share_img" alt="">
+            </span-->
+            <span class="unicredit_share_link" data-share-type="tw">
+                <img src="//www.kp.ru/best/fixhead/share/twittre_w.svg" class="dom_share_img" alt="">
+            </span>
+            <span class="unicredit_share_link" data-share-type="vk">
+                <img src="//www.kp.ru/best/fixhead/share/vk_w.svg" class="dom_share_img" alt="">
+            </span>
+            <span class="unicredit_share_link" data-share-type="ok">
+                <img src="//www.kp.ru/best/fixhead/share/odnoklas_w.svg" class="dom_share_img" alt="">
+            </span>
+			
+        </div>
+		
+        		
+    </div>
+</div>
+</main>
+<!--script>
+    (function() {
+        var salt = "eb0e654c8d97d98441a897b600a38756";
+        var date = new Date();
+        var y = date.getFullYear();
+        var m = date.getMonth() + 1;
+        var d = date.getDate();
+        m = m < 10 ? "0" + m : m;
+        d = d < 10 ? "0" + d : d;
+        var pageNumber = "" + y + m + d;
+
+        var temp = ["pages.direction", "page", "pages.spot", "0", "pages.number", pageNumber, "pages.target.class", "999", "pages.target.id", "0", "sub", "0"];
+        var jsonpVarName = "a" + md5(temp.join("") + salt).substring(0, 8);
+        var url = "//s1.stc.m.kpcdn.net/content/api/1/pages/get.js/"+ jsonpVarName +"/?pages.direction=page&pages.spot=0&pages.number="+ pageNumber +"&pages.target.class=999&pages.target.id=0&sub=0";
+        var script = document.createElement("script");
+        script.onload = function(){
+            //Теперь, в
+            var json = window[jsonpVarName]
+            //должен находиться тот самый объект. Можно в консоли посмотреть
+            var eurValue = json.currency.eur.value;
+            var usdValue = json.currency.usd.value;
+
+            var usdContainer = document.querySelector('[data-currency="currency-usd"]');
+            var eurContainer = document.querySelector('[data-currency="currency-euro"]');
+
+            usdContainer.innerHTML = usdValue;
+            eurContainer.innerHTML = eurValue;
+            
+        }
+        script.src = url;
+        document.getElementsByTagName("script")[0].parentElement.appendChild(script);
+    })();
+
+</script-->
+<!--script type="text/javascript" src="/best/newheadkp/js/w.js"></script-->
+</body>
+</html>

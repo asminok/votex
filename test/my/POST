@@ -1,0 +1,20 @@
+curl 'https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023' \
+  -H 'authority: www.kp.ru' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-RU,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-US;q=0.6' \
+  -H 'cache-control: max-age=0' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'cookie: uua=89f6d7a64c4f604e4f579fd7e6133177; _gid=GA1.2.983848565.1680770145; _ym_uid=1680770145221038397; _ym_d=1680770145; _ym_isad=1; _ga=GA1.2.1420619942.1680770145; _gat_UA-23870775-5=1; _ga_8MQ0FGXD1P=GS1.1.1680779789.7.0.1680779789.0.0.0; _ga_Q5YRVQY3FS=GS1.1.1680779789.7.0.1680779789.0.0.0; _ga_R7DD899R0W=GS1.1.1680779451.7.1.1680779794.0.0.0' \
+  -H 'origin: https://www.kp.ru' \
+  -H 'referer: https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023' \
+  -H 'sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \
+  --data-raw 'inp-1-0=0&inp-2-0=2&vote=1' \
+  --compressed
