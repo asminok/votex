@@ -4,16 +4,17 @@ import lombok.extern.slf4j.Slf4j;
 import org.votex.proxy.ProxyDef;
 import org.votex.proxy.ProxyPool;
 import org.votex.proxy.ProxyPoolImpl;
+import org.votex.util.Morpheus;
 import org.votex.util.UriLoaderParams;
+import org.votex.util.UriLoaderResponse;
 import org.votex.util.UriProxyLoader;
-import org.votex.util.UriProxyLoaderResponse;
 
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.util.Map;
 
 @Slf4j
-public class RequestRunner {
+public class RequestRunner extends Morpheus {
     private final Configuration configuration;
     private final ProxyPool proxyPool;
 
@@ -29,6 +30,12 @@ public class RequestRunner {
             log.error("Pool not ready - exiting");
             return 1;
         }
+
+        if (configuration.autoCookie()) {
+            log.info("Going to launch the Browser");
+            // TODO:
+        }
+
         log.info("Ready. Press Ctrl+C to abort the loop...");
         return runLoop();
     }
@@ -43,6 +50,8 @@ public class RequestRunner {
         do {
             try {
                 boolean success;
+
+                // Proxy
                 Proxy proxy = null;
                 if (!configuration.getDirectMode()) {
                     next = proxyPool.getNext();
@@ -55,12 +64,13 @@ public class RequestRunner {
                 Map headers = Headers.ofPost();
                 applyCookie(headers);
 
-                UriProxyLoaderResponse res = UriProxyLoader.sendRequest(configuration.getSourceForGET(), UriProxyLoader.METHOD.POST, headers, configuration.getPayload(), UriLoaderParams.DEFAULT_PARAMS, proxy);
+                // POST
+                UriLoaderResponse res = UriProxyLoader.sendRequest(configuration.getTargetForPOST(), UriProxyLoader.METHOD.POST, headers, configuration.getPayload(), UriLoaderParams.DEFAULT_PARAMS, proxy);
                 log.info("res: ({}) {}", res.getCode(), res.getData());
 
                 if (res != null && (res.getCode() == 200 || res.getCode() == 201)) {
                     numSuccessful++;
-                    log.info("SUCCESS: {} of {} done ({} left)", numSuccessful, configuration.getNumberOfReqs(), more);
+                    log.info("SUCCESS: {} of {} done ({} left)", numSuccessful, configuration.getNumberOfReqs(), more-1);
                     parseResponseCounters(res);
                     success = true;
                 } else {
@@ -68,13 +78,13 @@ public class RequestRunner {
                         log.warn("Marking proxy {} as down", next);
                         next.setMarkedDown(true);
                     }
-                    Thread.sleep(configuration.getDelayProxyRetry() * 1000);
+                    yeld(configuration.getDelayProxyRetry());
                     success = false;
                 }
 
                 if (success) {
                     if (--more > 0) {
-                        Thread.sleep(configuration.getDelayNext() * 1000);
+                        yeld(configuration.getDelayNext());
                     }
                 }
             } catch (Exception e) {
@@ -92,7 +102,8 @@ public class RequestRunner {
         return 0;
     }
 
-    private void parseResponseCounters(UriProxyLoaderResponse res) {
+    private void parseResponseCounters(UriLoaderResponse res) {
+        log.info("Hmm.. TODO:");
     }
 
     private void applyCookie(Map headers) {

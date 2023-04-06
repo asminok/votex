@@ -5,7 +5,7 @@ public interface Configuration extends URLS {
     String getPayload();
     Integer getNumberOfReqs();
     Integer getDelayNext();
-    Integer getDelayPost();
     Integer getDelayProxyRetry();
     Boolean getDirectMode();
+    Boolean autoCookie();
 }
