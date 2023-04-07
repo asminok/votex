@@ -124,7 +124,7 @@ public class RequestRunner extends Morpheus {
     }
 
     private boolean parseResponseCounters(UriLoaderResponse res) {
-        if (!configuration.getCheckScore()) {
+        if (configuration.getNoScoreCheck()) {
             log.warn("Not checking the resulting score");
             return true;
         }

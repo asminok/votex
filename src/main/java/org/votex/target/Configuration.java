@@ -8,5 +8,5 @@ public interface Configuration extends ParserOptions, URLS {
     Integer getDelayProxyRetry();
     Boolean getDirectMode();
     Boolean autoCookie();
-    Boolean getCheckScore();
+    Boolean getNoScoreCheck();
 }

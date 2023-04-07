@@ -31,7 +31,7 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 
 	@Getter
 	@Option(names = {"-d", "--data"}, description = "Payload data ((default - inp-12-0=0&vote=1)")
-	private String payload = "inp-1-0=0&inp-2-0=2&vote=1";
+	private String payload = "inp-12-0=0&vote=1";
 
 	@Getter
 	@Option(names = {"--delay"}, description = "Delay after successful attempt, seconds (default - 5)")
@@ -83,7 +83,7 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	String result = "<span class=\"unicredit_poll_results_count\">";
 	@Getter
 	@Option(names = {"--no-score"}, description = "Do not check the resulting score (default - false)")
-	Boolean checkScore = true;
+	Boolean noScoreCheck = false;
 
 	public static void main(String[] args) {
 		new VotexApplication().run(args);
