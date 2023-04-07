@@ -27,7 +27,7 @@ public class ResponseParserImpl implements ResponseParser {
                 }
             }
         } catch (Exception ex) {
-            log.error("Failed to load proxy list: {}", ex);
+            log.error("Failed to parse scores: {}", ex.getLocalizedMessage(), ex);
         }
         return null;
     }
