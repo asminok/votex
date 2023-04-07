@@ -1,0 +1,4 @@
+#!/bin/sh
+
+java -jar target/votex-0.0.1-SNAPSHOT-jar-with-dependencies.jar $@ | tee -a votex.log
+
