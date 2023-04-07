@@ -1,6 +1,7 @@
 package org.votex.target;
 
 import lombok.extern.slf4j.Slf4j;
+import org.votex.chrome.CookieProvider;
 import org.votex.proxy.ProxyDef;
 import org.votex.proxy.ProxyPool;
 import org.votex.proxy.ProxyPoolImpl;
@@ -17,11 +18,17 @@ import java.util.Map;
 public class RequestRunner extends Morpheus {
     private final Configuration configuration;
     private final ProxyPool proxyPool;
+    private final CookieProvider cookieProvider;
+    private final ResponseParser responseParser;
+
+    private String extCookie = null;
 
     private int currentCookie;
-    public RequestRunner(Configuration configuration) {
+    public RequestRunner(Configuration configuration, CookieProvider cookieProvider, ResponseParser responseParser) {
         this.configuration = configuration;
-        currentCookie = configuration.getCookies().length - 1;
+        this.cookieProvider = cookieProvider;
+        this.responseParser = responseParser;
+        currentCookie = Math.max(0, configuration.getCookies().length - 1);
         proxyPool = configuration.getDirectMode()? null : new ProxyPoolImpl(configuration);
     }
 
@@ -31,9 +38,20 @@ public class RequestRunner extends Morpheus {
             return 1;
         }
 
-        if (configuration.autoCookie()) {
-            log.info("Going to launch the Browser");
-            // TODO:
+        // Cookie set with --cookie
+        if (configuration.getCookies().length > 0) {
+            log.info("Using cookies from command line: {}", configuration.getCookies().length);
+        } else {
+            if (configuration.autoCookie()) {
+                log.info("Going to launch the Browser");
+                extCookie = cookieProvider.acquireSiteCookies(configuration.getSourceForGET());
+                log.info("Cookie from Browser: {}", extCookie);
+
+                if (extCookie == null || extCookie.length() < 10) {
+                    log.error("Erroneous value - exiting");
+                    return 2;
+                }
+            }
         }
 
         log.info("Ready. Press Ctrl+C to abort the loop...");
@@ -103,7 +121,8 @@ public class RequestRunner extends Morpheus {
     }
 
     private void parseResponseCounters(UriLoaderResponse res) {
-        log.info("Hmm.. TODO:");
+        Integer score = responseParser.parseInteger(res.getData(), configuration);
+        log.info("Got participant score: {}", score);
     }
 
     private void applyCookie(Map headers) {
@@ -111,6 +130,9 @@ public class RequestRunner extends Morpheus {
     }
 
     private String getCookie() {
+        if (extCookie != null) {
+            return extCookie;
+        }
         if (configuration.getCookies() == null || configuration.getCookies().length == 0) {
             return null;
         } else if (configuration.getCookies().length == 1) {

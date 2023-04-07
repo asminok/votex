@@ -1,6 +1,6 @@
 package org.votex.target;
 
-public interface Configuration extends URLS {
+public interface Configuration extends ParserOptions, URLS {
     String[] getCookies();
     String getPayload();
     Integer getNumberOfReqs();

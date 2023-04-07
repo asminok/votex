@@ -2,22 +2,35 @@ package org.votex;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
+import org.votex.chrome.ChromeCookieProvider;
 import org.votex.target.Configuration;
 import org.votex.target.RequestRunner;
+import org.votex.target.ResponseParserImpl;
 import picocli.CommandLine;
 
+import java.util.Arrays;
 import java.util.concurrent.Callable;
 
 import static picocli.CommandLine.Command;
 import static picocli.CommandLine.Option;
+import static picocli.CommandLine.ArgGroup;
 
-@Command(name = "votex", mixinStandardHelpOptions = true, version = "votex 0.0.1", description = "app")
+@Command(name = "votex", mixinStandardHelpOptions = true, version = "votex 0.0.1", description = "\n")
 @Slf4j
 public class VotexApplication implements Callable<Integer>, Configuration {
 
-	@Getter
-	@Option(names = {"-c", "--cookie"}, description = "Browser cookie", required = true)
-	private String[] cookies = new String[] {};
+	@ArgGroup(exclusive = true, multiplicity = "1")
+	CookieOptions cookieOptions;
+
+	static class CookieOptions {
+		@Option(names = {"-a", "--auto"}, description = "Auto cookie mode - launch a Browser", required = true)
+		private Boolean autoCookie = false;
+		@Option(names = {"-c", "--cookie"}, description = "Browser cookie", required = true)
+		private String[] cookies = new String[] {};
+	}
+
+	public Boolean autoCookie() { return cookieOptions.autoCookie; }
+	public String[] getCookies() { return cookieOptions.cookies; }
 
 	@Getter
 	@Option(names = {"-D", "--data"}, description = "Payload data ((default - inp-12-0=0&vote=1)")
@@ -41,11 +54,11 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 
 	@Getter
 	@Option(names = {"-G", "--get"}, description = "URL for making GET request")
-	private String sourceForGET = "https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023";
+	private String sourceForGET = "https://eoaowsdhxrrl8on.m.pipedream.net";
 
 	@Getter
 	@Option(names = {"-P", "--post"}, description = "URL for making GET request")
-	private String targetForPOST = "https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023";
+	private String targetForPOST = "https://eoaowsdhxrrl8on.m.pipedream.net";
 
 	@Getter
 	@Option(names = {"-n", "--attempts"}, description = "Total Number of POSTs to do (default - 1)")
@@ -55,13 +68,27 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	@Option(names = {"--no-proxy"}, description = "Direct mode - do not use proxies (default - off)")
 	private Boolean directMode = false;
 
-	@Option(names = {"-a", "--auto"}, description = "Auto cookie mode - launch Browser in background")
-	private Boolean autoCookie = false;
-	public Boolean autoCookie() { return autoCookie; }
+	// Parser options
+	@Getter
+	@Option(names = {"--question"}, description = "Question (i.e. \"9. «Лучшая клиника инновационных методов»\")", required = true)
+	String question = null;
+	@Getter
+	@Option(names = {"--participant"}, description = "Participant (i.e. \"OАО «Клиника микрохирургии глаза»\")", required = true)
+	String participant = null;
+	@Getter
+	@Option(names = {"--header"}, description = "Participant head marker (default - <span class=\"noimg\">)")
+	String header = "<span class=\"noimg\">";
+	@Getter
+	@Option(names = {"--footer"}, description = "Question tail marker (default - </span>)")
+	String footer = "</span>";
+	@Getter
+	@Option(names = {"--result"}, description = "Resulting score head marker (default - <span class=\"unicredit_poll_results_count\">)")
+	String result = "<span class=\"unicredit_poll_results_count\">";
 
 
 	public static void main(String[] args) {
-		new VotexApplication().run(args);
+		for (String e: args) { System.out.println(e); }
+		//new VotexApplication().run(args);
 	}
 
 	public void run(String... args) {
@@ -70,6 +97,6 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 
 	@Override
 	public Integer call() throws Exception {
-		return new RequestRunner(this).run();
+		return new RequestRunner(this, new ChromeCookieProvider(), new ResponseParserImpl()).run();
 	}
 }

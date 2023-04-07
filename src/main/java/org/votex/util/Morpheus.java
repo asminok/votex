@@ -9,9 +9,10 @@ public abstract class Morpheus {
     }
     protected void yeldMs(Integer milliSeconds) {
         try {
+            log.info("* waiting {}s...", milliSeconds/1000);
             Thread.sleep(milliSeconds);
         } catch (InterruptedException ex) {
-            log.error("Cannot make a(n) {} ms break: {}", milliSeconds, ex.getMessage(), ex);
+            log.error("Cannot make a(n) {}ms break: {}", milliSeconds, ex.getMessage(), ex);
         }
     }
 }
