@@ -22,6 +22,7 @@ public class RequestRunner extends Morpheus {
     private final ResponseParser responseParser;
 
     private String extCookie = null;
+    private Integer lastScore = null;
 
     private int currentCookie;
     public RequestRunner(Configuration configuration, CookieProvider cookieProvider, ResponseParser responseParser) {
@@ -89,7 +90,9 @@ public class RequestRunner extends Morpheus {
                 if (res != null && (res.getCode() == 200 || res.getCode() == 201)) {
                     numSuccessful++;
                     log.info("SUCCESS: {} of {} done ({} left)", numSuccessful, configuration.getNumberOfReqs(), more-1);
-                    parseResponseCounters(res);
+                    if (!parseResponseCounters(res)) {
+                        return 3;
+                    }
                     success = true;
                 } else {
                     if (next != null) {
@@ -120,9 +123,22 @@ public class RequestRunner extends Morpheus {
         return 0;
     }
 
-    private void parseResponseCounters(UriLoaderResponse res) {
+    private boolean parseResponseCounters(UriLoaderResponse res) {
+        if (!configuration.getCheckScore()) {
+            log.warn("Not checking the resulting score");
+            return true;
+        }
+
         Integer score = responseParser.parseInteger(res.getData(), configuration);
-        log.info("Got participant score: {}", score);
+        log.info("Got participant score: {} (was {}) {}", score, lastScore, (score == null? " - check your markers setup (--help)" : ""));
+
+        if (lastScore != null && score != null && score <= lastScore) {
+            log.error("Score check failed - {} became {} - NOT INCREASED, exiting...", lastScore, score);
+            return false;
+        }
+
+        lastScore = score;
+        return true;
     }
 
     private void applyCookie(Map headers) {
