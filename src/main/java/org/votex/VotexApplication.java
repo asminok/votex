@@ -30,15 +30,15 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	public String[] getCookies() { return cookieOptions.cookies; }
 
 	@Getter
-	@Option(names = {"-D", "--data"}, description = "Payload data ((default - inp-12-0=0&vote=1)")
+	@Option(names = {"-d", "--data"}, description = "Payload data ((default - inp-12-0=0&vote=1)")
 	private String payload = "inp-1-0=0&inp-2-0=2&vote=1";
 
 	@Getter
-	@Option(names = {"-d", "--delay"}, description = "Delay after successful attempt, seconds (default - 5)")
+	@Option(names = {"--delay"}, description = "Delay after successful attempt, seconds (default - 5)")
 	private Integer delayNext = 5;
 
 	@Getter
-	@Option(names = {"-p", "--delay-post"}, description = "Delay after GET/before POST, seconds (default - 5)")
+	@Option(names = {"--delay-post"}, description = "Delay after GET/before POST, seconds (default - 5)")
 	private Integer delayPost = 5;
 
 	@Getter
@@ -67,10 +67,10 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 
 	// Parser options
 	@Getter
-	@Option(names = {"--question"}, description = "Question (i.e. \"9. «Лучшая клиника инновационных методов»\")", required = true)
+	@Option(names = {"-q", "--question"}, description = "Question (i.e. \"9. «Лучшая клиника инновационных методов»\")", required = true)
 	String question = null;
 	@Getter
-	@Option(names = {"--participant"}, description = "Participant (i.e. \"OАО «Клиника микрохирургии глаза»\")", required = true)
+	@Option(names = {"-p", "--participant"}, description = "Participant (i.e. \"OАО «Клиника микрохирургии глаза»\")", required = true)
 	String participant = null;
 	@Getter
 	@Option(names = {"--header"}, description = "Participant head marker (default - <span class=\"noimg\">)")
