@@ -86,22 +86,7 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	Boolean checkScore = true;
 
 	public static void main(String[] args) {
-		// _emulate();
 		new VotexApplication().run(args);
-	}
-
-	public static void _emulate() {
-		String[] NO_PROXY_STATIC_COOKIE = {
-				"--no-proxy",
-				"--participant=АНО «Клиника микрохирургии глаза ВЗГЛЯД®»",
-				"--question=2. «Лучшая клиника инновационных методов лечения в офтальмологии»",
-				"--post=https://www.kp.ru/best/msk/oprosy/tula_klinikagoda2023",
-				"-n",
-				"5",
-				"-c",
-				"uua=89f6d7a64c4f604e4f579fd7e6133177; _gid=GA1.2.983848565.1680770145; _ym_uid=1680770145221038397; _ym_d=1680770145; _ym_isad=1; _ga=GA1.2.1420619942.1680770145; _gat_UA-23870775-5=1; _ga_8MQ0FGXD1P=GS1.1.1680779789.7.0.1680779789.0.0.0; _ga_Q5YRVQY3FS=GS1.1.1680779789.7.0.1680779789.0.0.0; _ga_R7DD899R0W=GS1.1.1680779451.7.1.1680779794.0.0.0"
-		};
-		new VotexApplication().run(NO_PROXY_STATIC_COOKIE);
 	}
 
 	public void run(String... args) {
