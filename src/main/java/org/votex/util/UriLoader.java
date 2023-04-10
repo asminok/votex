@@ -36,7 +36,7 @@ public abstract class UriLoader {
         HttpURLConnection conn = null;
         InputStream in = null;
         OutputStream os = null;
-        UriLoaderResponse res = null;
+        UriLoaderResponse res = new UriLoaderResponse();
 
         try {
             URL imageUrl = new URL(url);
@@ -55,54 +55,7 @@ public abstract class UriLoader {
 
             setBasicHeaders(conn, params);
             conn.setRequestProperty("Accept-Charset", "UTF-8");
-
             doInterchangeLoop(conn, res, data, params);
-
-            int status = HttpURLConnection.HTTP_CREATED;
-            //int status = HttpStatus.NOT_ACCEPTABLE.value();
-
-            if (data != null) {
-                byte[] encodedData = data.getBytes(StandardCharsets.UTF_8);
-                conn.setRequestProperty("Content-Length", String.valueOf(encodedData.length));
-                conn.setDoOutput(true);
-
-                os = conn.getOutputStream();
-                os.write(encodedData);
-
-                status = conn.getResponseCode();
-            }
-
-            res = new UriLoaderResponse(status);
-
-            if (status >= HttpURLConnection.HTTP_BAD_REQUEST) {
-                in = new BufferedInputStream(conn.getErrorStream());
-            } else {
-                in = new BufferedInputStream(conn.getInputStream());
-            }
-
-            byte[] buffer = new byte[10240];
-            int length;
-            int totalLength = 0;
-
-            if (params.binaryMode) {
-                ByteArrayOutputStream output = new ByteArrayOutputStream();
-                while (totalLength < params.maxContentSize && (length = in.read(buffer)) > 0) {
-                    output.write(buffer, 0, length);
-                    totalLength += length;
-                }
-                in.close();
-                byte[] binRes = output.toByteArray();
-                output.close();
-                return new UriLoaderResponse(status, binRes);
-            } else {
-                StringBuilder tres = new StringBuilder();
-                while (totalLength < params.maxContentSize && (length = in.read(buffer)) > 0) {
-                    tres.append(new String(buffer, 0, length));
-                    totalLength += length;
-                }
-                in.close();
-                return new UriLoaderResponse(status, tres.toString());
-            }
         } catch (Exception ex) {
             if (res == null) {
                 res = new UriLoaderResponse();
@@ -111,20 +64,6 @@ public abstract class UriLoader {
             res.setCode(HttpURLConnection.HTTP_INTERNAL_ERROR);
             log.error(ex.getMessage(), ex);
         } finally {
-            if (in != null) {
-                try {
-                    in.close();
-                } catch (Exception e) {
-                    log.error(e.getMessage(), e);
-                }
-            }
-            if (os != null) {
-                try {
-                    os.close();
-                } catch (Exception e) {
-                    log.error(e.getMessage(), e);
-                }
-            }
             if (conn != null) {
                 conn.disconnect();
             }

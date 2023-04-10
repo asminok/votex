@@ -28,4 +28,8 @@ public class UriLoaderResponse {
         this.code = code;
         this.binaryData = binaryData;
     }
+
+    public static UriLoaderResponse empty() {
+        return new UriLoaderResponse(200);
+    }
 }

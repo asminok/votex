@@ -10,4 +10,5 @@ public interface Configuration extends ParserOptions, URLS {
     Boolean getDirectMode();
     Boolean autoCookie();
     Boolean getNoScoreCheck();
+    Boolean getDebug();
 }

@@ -87,7 +87,15 @@ public class RequestRunner extends Morpheus {
                 applyCookie(headers);
 
                 // POST
-                UriLoaderResponse res = UriProxyLoader.sendRequest(configuration.getTargetForPOST(), UriProxyLoader.METHOD.POST, headers, configuration.getPayload(), UriLoaderParams.DEFAULT_PARAMS, proxy);
+                UriLoaderResponse res;
+
+                if (configuration.getDebug()) {
+                    log.info("NOT connecting to {}...", configuration.getTargetForPOST());
+                    res = UriLoaderResponse.empty();
+                } else {
+                    res = UriProxyLoader.sendRequest(configuration.getTargetForPOST(), UriProxyLoader.METHOD.POST, headers, configuration.getPayload(), UriLoaderParams.DEFAULT_PARAMS, proxy);
+                }
+
                 log.info("res: ({}) {}", res.getCode(), res.getData());
 
                 if (res != null && (res.getCode() == 200 || res.getCode() == 201)) {

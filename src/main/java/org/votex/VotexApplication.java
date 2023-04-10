@@ -86,6 +86,9 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	@Getter
 	@Option(names = {"--no-score"}, description = "Do not check the resulting score (default - false)")
 	Boolean noScoreCheck = false;
+	@Getter
+	@Option(names = {"--debug"}, description = "Debug mode - do not make requests")
+	private Boolean debug = false;
 
 	public static void main(String[] args) {
 		new VotexApplication().run(args);
