@@ -13,10 +13,12 @@ import org.votex.util.UriProxyLoader;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.util.Map;
+import java.util.Random;
 
 @Slf4j
 public class RequestRunner extends Morpheus {
     private static final int MAX_LOOP_SIZE = 1000000;
+    private static final Random rnd = new Random();
     private final Configuration configuration;
     private final ProxyPool proxyPool;
     private final CookieProvider cookieProvider;
@@ -106,7 +108,7 @@ public class RequestRunner extends Morpheus {
 
                 if (success) {
                     if (--more > 0) {
-                        yeld(configuration.getDelayNext());
+                        yeld(configuration.getDelayNext() + rnd.nextInt(configuration.getRandomDelay()));
                     }
                 }
             } catch (Exception e) {

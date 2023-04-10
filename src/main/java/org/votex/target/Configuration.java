@@ -5,6 +5,7 @@ public interface Configuration extends ParserOptions, URLS {
     String getPayload();
     Integer getNumberOfReqs();
     Integer getDelayNext();
+    Integer getRandomDelay();
     Integer getDelayProxyRetry();
     Boolean getDirectMode();
     Boolean autoCookie();

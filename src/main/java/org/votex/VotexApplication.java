@@ -36,7 +36,9 @@ public class VotexApplication implements Callable<Integer>, Configuration {
 	@Getter
 	@Option(names = {"--delay"}, description = "Delay after successful attempt, seconds (default - 5)")
 	private Integer delayNext = 5;
-
+	@Getter
+	@Option(names = {"--random-delay"}, description = "Random delay after each attempt, 0..seconds MAX (default - 5)")
+	private Integer randomDelay = 5;
 	@Getter
 	@Option(names = {"--delay-post"}, description = "Delay after GET/before POST, seconds (default - 5)")
 	private Integer delayPost = 5;
