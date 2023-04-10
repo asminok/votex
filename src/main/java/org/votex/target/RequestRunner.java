@@ -16,6 +16,7 @@ import java.util.Map;
 
 @Slf4j
 public class RequestRunner extends Morpheus {
+    private static final int MAX_LOOP_SIZE = 1000000;
     private final Configuration configuration;
     private final ProxyPool proxyPool;
     private final CookieProvider cookieProvider;
@@ -62,7 +63,7 @@ public class RequestRunner extends Morpheus {
     private int runLoop() {
         boolean exiting = false;
         ProxyDef next = null;
-        int maxLoop = 100;
+        int maxLoop = MAX_LOOP_SIZE;
         int more = configuration.getNumberOfReqs();
         int numSuccessful = 0;
 
